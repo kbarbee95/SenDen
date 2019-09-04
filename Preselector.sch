@@ -14484,11 +14484,7 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="IC1" library="analog-devices" deviceset="AD102" device=""/>
 <part name="SAW_7" library="SeniorDesign" deviceset="TA0576A" device=""/>
 <part name="IC2" library="analog-devices" deviceset="AD102" device=""/>
-<<<<<<< HEAD
-=======
 <part name="IC3" library="analog-devices" deviceset="AD102" device=""/>
-<part name="SAW_8" library="SeniorDesign" deviceset="TA0576A" device=""/>
->>>>>>> b8750f502e11f0527411944f85706c0b777adc0a
 </parts>
 <sheets>
 <sheet>
@@ -15728,10 +15724,6 @@ TO FILTERS</text>
 <attribute name="NAME" x="260.35" y="152.4" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="260.35" y="170.18" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SAW_8" gate="G$1" x="180.34" y="165.1" smashed="yes">
-<attribute name="NAME" x="196.85" y="170.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="196.85" y="152.4" size="1.778" layer="96" align="center-left"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -15945,6 +15937,7 @@ TO FILTERS</text>
 </instance>
 <instance part="IC1" gate="G$1" x="205.74" y="129.54"/>
 <instance part="IC2" gate="G$1" x="101.6" y="144.78"/>
+<instance part="IC3" gate="G$1" x="187.96" y="231.14"/>
 </instances>
 <busses>
 </busses>
