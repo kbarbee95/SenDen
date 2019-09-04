@@ -14483,6 +14483,7 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="+5V6" library="NewSDRS" deviceset="+5V3" device=""/>
 <part name="IC1" library="analog-devices" deviceset="AD102" device=""/>
 <part name="SAW_7" library="SeniorDesign" deviceset="TA0576A" device=""/>
+<part name="IC2" library="analog-devices" deviceset="AD102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15934,6 +15935,7 @@ TO FILTERS</text>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="IC1" gate="G$1" x="205.74" y="129.54"/>
+<instance part="IC2" gate="G$1" x="101.6" y="144.78"/>
 </instances>
 <busses>
 </busses>
