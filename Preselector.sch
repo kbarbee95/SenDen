@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="12" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14408,6 +14407,8 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="+5V6" library="NewSDRS" deviceset="+5V3" device=""/>
+<part name="SAW_7" library="SeniorDesign" deviceset="TA0576A" device=""/>
+<part name="SAW_8" library="SeniorDesign" deviceset="TA0576A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15642,6 +15643,14 @@ TO FILTERS</text>
 </instance>
 <instance part="+5V6" gate="G$1" x="383.54" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="386.08" y="123.19" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SAW_7" gate="G$1" x="281.94" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="265.43" y="152.4" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="265.43" y="170.18" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="SAW_8" gate="G$1" x="205.74" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="189.23" y="152.4" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="189.23" y="170.18" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
