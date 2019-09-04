@@ -15928,7 +15928,7 @@ TO FILTERS</text>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="IC1" gate="G$1" x="129.54" y="205.74"/>
+<instance part="IC1" gate="G$1" x="205.74" y="129.54"/>
 </instances>
 <busses>
 </busses>
