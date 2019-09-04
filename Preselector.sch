@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="12" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14248,6 +14247,80 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 </deviceset>
 </devicesets>
 </library>
+<library name="analog-devices">
+<description>&lt;b&gt;Analog Devices Components&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="AD102">
+<description>&lt;b&gt;8 lead Package&lt;/b&gt;</description>
+<wire x1="-26.289" y1="3.175" x2="26.289" y2="3.175" width="0.254" layer="21"/>
+<wire x1="26.289" y1="3.175" x2="26.289" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="26.289" y1="-3.175" x2="-26.289" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-26.289" y1="-3.175" x2="-26.289" y2="3.175" width="0.254" layer="21"/>
+<pad name="1" x="-23.368" y="-1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="4" x="22.6568" y="-1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="2" x="-15.4432" y="-1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="6" x="21.3868" y="1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="5" x="23.9268" y="1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="9" x="-21.7932" y="1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="7" x="-14.1732" y="1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<pad name="3" x="20.1168" y="-1.27" drill="0.8128" diameter="1.397" shape="square"/>
+<text x="-24.13" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="AD102">
+<wire x1="-15.24" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="-15.24" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="FB" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="IN-" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="IN+" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="ICOM" x="-17.78" y="-10.16" length="short" direction="pwr"/>
+<pin name="OUT_HI" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="OUT_LO" x="15.24" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="+15V_DC" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="PWRCOM" x="15.24" y="-10.16" length="short" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AD102" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;ANALOG DEVICES&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AD102" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AD102">
+<connects>
+<connect gate="G$1" pin="+15V_DC" pad="7"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="ICOM" pad="4"/>
+<connect gate="G$1" pin="IN+" pad="5"/>
+<connect gate="G$1" pin="IN-" pad="6"/>
+<connect gate="G$1" pin="OUT_HI" pad="1"/>
+<connect gate="G$1" pin="OUT_LO" pad="9"/>
+<connect gate="G$1" pin="PWRCOM" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14408,6 +14481,7 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="+5V6" library="NewSDRS" deviceset="+5V3" device=""/>
+<part name="IC1" library="analog-devices" deviceset="AD102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15854,6 +15928,7 @@ TO FILTERS</text>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
+<instance part="IC1" gate="G$1" x="129.54" y="205.74"/>
 </instances>
 <busses>
 </busses>
