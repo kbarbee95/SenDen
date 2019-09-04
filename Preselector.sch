@@ -14487,7 +14487,11 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="SAW_8" library="SeniorDesign" deviceset="TA0576A" device=""/>
 =======
 <part name="IC2" library="analog-devices" deviceset="AD102" device=""/>
+<<<<<<< HEAD
 >>>>>>> a83345bbcde8dd996079415019051801b1972697
+=======
+<part name="IC3" library="analog-devices" deviceset="AD102" device=""/>
+>>>>>>> b07b8f2c59b48843a812dc634ad5883188e89e24
 </parts>
 <sheets>
 <sheet>
@@ -15944,6 +15948,7 @@ TO FILTERS</text>
 </instance>
 <instance part="IC1" gate="G$1" x="205.74" y="129.54"/>
 <instance part="IC2" gate="G$1" x="101.6" y="144.78"/>
+<instance part="IC3" gate="G$1" x="187.96" y="231.14"/>
 </instances>
 <busses>
 </busses>
