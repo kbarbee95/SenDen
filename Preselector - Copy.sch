@@ -15937,7 +15937,7 @@ TO FILTERS</text>
 </instance>
 <instance part="IC1" gate="G$1" x="205.74" y="129.54"/>
 <instance part="IC2" gate="G$1" x="101.6" y="144.78"/>
-<instance part="IC3" gate="G$1" x="142.24" y="187.96"/>
+<instance part="IC3" gate="G$1" x="187.96" y="231.14"/>
 </instances>
 <busses>
 </busses>
