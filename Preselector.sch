@@ -14482,6 +14482,7 @@ Source: &lt;a href="https://www.taisaw.com/upload/product/TA0576A _Rev 2.0_.pdf"
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="+5V6" library="NewSDRS" deviceset="+5V3" device=""/>
 <part name="IC1" library="analog-devices" deviceset="AD102" device=""/>
+<part name="SAW_7" library="SeniorDesign" deviceset="TA0576A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15716,6 +15717,10 @@ TO FILTERS</text>
 </instance>
 <instance part="+5V6" gate="G$1" x="383.54" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="386.08" y="123.19" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SAW_7" gate="G$1" x="276.86" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="260.35" y="152.4" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="260.35" y="170.18" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
