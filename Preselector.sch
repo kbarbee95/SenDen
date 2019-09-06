@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="12" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14560,6 +14560,7 @@ to move harmonics from supply
 out of the 160m frequency range</text>
 <text x="350.52" y="25.4" size="2.54" layer="94">2.04 Multiband Receive Preselector</text>
 <text x="419.1" y="7.62" size="2.54" layer="94">A</text>
+<text x="114.3" y="231.14" size="2.54" layer="106">This is from DECPU, there is a 5.3V output and this may be compatible, althought it does have a lot of pins that need to be soldered.</text>
 </plain>
 <instances>
 <instance part="IC58" gate="G$1" x="186.69" y="142.24" smashed="yes">
@@ -15001,6 +15002,7 @@ out of the 160m frequency range</text>
 TO FILTERS</text>
 <text x="81.28" y="95.25" size="1.778" layer="97" rot="MR0">PRESEL OUT
 TO ADC</text>
+<text x="363.22" y="25.4" size="2.54" layer="94">2m Band</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -15687,6 +15689,7 @@ TO ADC</text>
 TO FILTERS</text>
 <text x="171.45" y="175.26" size="1.778" layer="97" rot="MR0">PRESEL IN
 TO FILTERS</text>
+<text x="360.68" y="27.94" size="2.54" layer="94">1.25m Band</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -16082,6 +16085,7 @@ TO FILTERS</text>
 TO FILTERS</text>
 <text x="199.39" y="83.82" size="1.778" layer="97" rot="MR0">PRESEL IN
 TO FILTERS</text>
+<text x="363.22" y="27.94" size="2.54" layer="94">70cm Band</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
