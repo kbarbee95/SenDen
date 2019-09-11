@@ -15558,6 +15558,15 @@ TO ADC</text>
 <wire x1="180.34" y1="152.4" x2="156.21" y2="152.4" width="0.1524" layer="91"/>
 <junction x="156.21" y="152.4"/>
 </segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="SAW_3" gate="G$1" pin="INPUT"/>
+<wire x1="322.58" y1="224.79" x2="332.74" y2="224.79" width="0.1524" layer="91"/>
+<pinref part="L5" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="224.79" x2="347.98" y2="224.79" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="224.79" x2="332.74" y2="232.41" width="0.1524" layer="91"/>
+<junction x="332.74" y="224.79"/>
+</segment>
 </net>
 <net name="+5V3" class="0">
 <segment>
@@ -15595,17 +15604,6 @@ TO ADC</text>
 <wire x1="306.07" y1="62.23" x2="306.07" y2="59.69" width="0.1524" layer="91"/>
 <junction x="293.37" y="62.23"/>
 <pinref part="L7" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="SAW_3" gate="G$1" pin="INPUT"/>
-<wire x1="322.58" y1="224.79" x2="332.74" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="L5" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="224.79" x2="347.98" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="224.79" x2="332.74" y2="232.41" width="0.1524" layer="91"/>
-<junction x="332.74" y="224.79"/>
 </segment>
 </net>
 <net name="N$2" class="0">
