@@ -321,22 +321,22 @@
 <text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="S511214">
-<wire x1="5.08" y1="2.54" x2="45.72" y2="2.54" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-12.7" x2="45.72" y2="2.54" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<text x="46.99" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="46.99" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="INPUT_GROUND" x="0" y="0" length="middle"/>
-<pin name="GROUND_1" x="0" y="-2.54" length="middle"/>
-<pin name="GROUND_2" x="0" y="-5.08" length="middle"/>
-<pin name="GROUND_3" x="0" y="-7.62" length="middle"/>
-<pin name="OUTPUT" x="0" y="-10.16" length="middle"/>
-<pin name="GROUND_7" x="50.8" y="0" length="middle" rot="R180"/>
-<pin name="GROUND_6" x="50.8" y="-2.54" length="middle" rot="R180"/>
-<pin name="GROUND_5" x="50.8" y="-5.08" length="middle" rot="R180"/>
-<pin name="GROUND_4" x="50.8" y="-7.62" length="middle" rot="R180"/>
-<pin name="OUTPUT_GROUND" x="50.8" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="7.62" x2="20.32" y2="7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="-20.32" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="7.62" x2="-20.32" y2="-7.62" width="0.254" layer="94"/>
+<text x="-1.27" y="10.16" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-1.27" y="-10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="INPUT_GROUND" x="-25.4" y="5.08" length="middle"/>
+<pin name="GROUND_1" x="-25.4" y="2.54" length="middle"/>
+<pin name="GROUND_2" x="-25.4" y="0" length="middle"/>
+<pin name="GROUND_3" x="-25.4" y="-2.54" length="middle"/>
+<pin name="OUTPUT" x="-25.4" y="-5.08" length="middle"/>
+<pin name="INPUT" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="GROUND_6" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="GROUND_5" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="GROUND_4" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUTPUT_GROUND" x="25.4" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -496,7 +496,7 @@ Source: &lt;a href="http://sawtron.com/wp-content/uploads/2018/10/S511214.pdf"&g
 <connect gate="G$1" pin="GROUND_4" pad="7"/>
 <connect gate="G$1" pin="GROUND_5" pad="8"/>
 <connect gate="G$1" pin="GROUND_6" pad="9"/>
-<connect gate="G$1" pin="GROUND_7" pad="10"/>
+<connect gate="G$1" pin="INPUT" pad="10"/>
 <connect gate="G$1" pin="INPUT_GROUND" pad="1"/>
 <connect gate="G$1" pin="OUTPUT" pad="5"/>
 <connect gate="G$1" pin="OUTPUT_GROUND" pad="6"/>
