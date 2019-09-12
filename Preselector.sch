@@ -16045,6 +16045,26 @@ TO FILTERS</text>
 <pinref part="SAW_5" gate="G$1" pin="INPUT"/>
 <wire x1="114.3" y1="175.26" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="L10" gate="G$1" pin="1"/>
+<junction x="101.6" y="193.04"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="LNA_4" gate="G$1" pin="RF_OUT"/>
+<wire x1="93.98" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="193.04" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
+<junction x="101.6" y="175.26"/>
+</segment>
+<segment>
+<pinref part="L11" gate="G$1" pin="1"/>
+<junction x="294.64" y="190.5"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="LNA_5" gate="G$1" pin="RF_OUT"/>
+<wire x1="287.02" y1="172.72" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="190.5" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
+<junction x="294.64" y="172.72"/>
+</segment>
 </net>
 <net name="1.25M_RF_IN3" class="0">
 <segment>
@@ -16090,30 +16110,6 @@ TO FILTERS</text>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="111.76" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SAW_7" gate="G$1" pin="INPUT"/>
-</segment>
-</net>
-<net name="GND1" class="1">
-<segment>
-<pinref part="L11" gate="G$1" pin="1"/>
-<junction x="294.64" y="190.5"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<pinref part="LNA_5" gate="G$1" pin="RF_OUT"/>
-<wire x1="287.02" y1="172.72" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="190.5" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
-<junction x="294.64" y="172.72"/>
-</segment>
-</net>
-<net name="GND2" class="1">
-<segment>
-<pinref part="L10" gate="G$1" pin="1"/>
-<junction x="101.6" y="193.04"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="LNA_4" gate="G$1" pin="RF_OUT"/>
-<wire x1="93.98" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="193.04" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<junction x="101.6" y="175.26"/>
 </segment>
 </net>
 <net name="N$13" class="0">
