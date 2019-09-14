@@ -1,0 +1,144 @@
+Partlist
+
+Exported from Preselector.sch at 9/13/2019 6:56 PM
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device          Package      Library           Sheet
+
+C1       100p 50v c0g   C-USC0603K      C0603K       rcl               3
+C2       0.1u 16V X7R   C-USC0603K      C0603K       rcl               3
+C3       100p 50v c0g   C-USC0603K      C0603K       rcl               3
+C4       8p 5% 0603     C-USC0603K      C0603K       rcl               3
+C5       12p 5% 0603    C-USC0603K      C0603K       rcl               3
+C6       0.1u 16V X7R   C-USC0603K      C0603K       rcl               3
+C7       100p 50v c0g   C-USC0603K      C0603K       rcl               3
+C8       8p 5% 0603     C-USC0603K      C0603K       rcl               3
+C9       12p 5% 0603    C-USC0603K      C0603K       rcl               3
+C10      0.1u 16V X7R   C-USC0603K      C0603K       rcl               3
+C11      100p 50v c0g   C-USC0603K      C0603K       rcl               3
+C12      8p 5% 0603     C-USC0603K      C0603K       rcl               3
+C13      12p 5% 0603    C-USC0603K      C0603K       rcl               3
+C14      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C15      0.1u 16V X7R   C-USC0603K      C0603K       rcl               4
+C16      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C17      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C18      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C19      0.1u 16V X7R   C-USC0603K      C0603K       rcl               4
+C20      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C21      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C22      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C23      0.1u 16V X7R   C-USC0603K      C0603K       rcl               4
+C24      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C25      100p 50v c0g   C-USC0603K      C0603K       rcl               4
+C26      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C27      0.1u 16V X7R   C-USC0603K      C0603K       rcl               5
+C28      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C29      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C30      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C31      0.1u 16V X7R   C-USC0603K      C0603K       rcl               5
+C32      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C33      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C34      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C35      0.1u 16V X7R   C-USC0603K      C0603K       rcl               5
+C36      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C37      100p 50v c0g   C-USC0603K      C0603K       rcl               5
+C38      160p 50v c0g   C-USC0603K      C0603K       rcl               2
+C39      180p 50v c0g   C-USC0603K      C0603K       rcl               2
+C40      0.1u 16V X7R   C-USC0603K      C0603K       rcl               2
+C41      100p 50v c0g   C-USC0603K      C0603K       rcl               2
+C42      160p 50v c0g   C-USC0603K      C0603K       rcl               2
+C43      180p 50v c0g   C-USC0603K      C0603K       rcl               2
+C44      0.1u 16V X7R   C-USC0603K      C0603K       rcl               2
+C45      100p 50v c0g   C-USC0603K      C0603K       rcl               2
+C46      160p 50v c0g   C-USC0603K      C0603K       rcl               2
+C47      180p 50v c0g   C-USC0603K      C0603K       rcl               2
+C48      0.1u 16V X7R   C-USC0603K      C0603K       rcl               2
+C49      100p 50v c0g   C-USC0603K      C0603K       rcl               2
+C50      160p 50v c0g   C-USC0603K      C0603K       rcl               2
+C51      180p 50v c0g   C-USC0603K      C0603K       rcl               2
+C459                    NFM31PC276B0J3L NFM31PC276   DEEP EDDY         1
+C481     33u            C-USC1206K      C1206K       rcl               1
+C482     33u            C-USC1206K      C1206K       rcl               1
+C483     EEE-FK1V470P   CPOL-USD        PANASONIC_D  rcl               1
+C484     EEE-FK1V470P   CPOL-USD        PANASONIC_D  rcl               1
+C489     .1u 50V        C-USC0402K      C0402K       rcl               1
+C490     .1u 50V        C-USC0402K      C0402K       rcl               1
+C491     .1u 50V        C-USC0402K      C0402K       rcl               1
+C492     .1u 50V        C-USC0402K      C0402K       rcl               1
+C493     .1u 50V        C-USC0402K      C0402K       rcl               1
+C500     NFM41PC155B1E3 NFM41PC155B1E3  NFM1806      NewSDR            1
+FL1      S511214        S511214         S511214      SeniorDesign      2
+FL2      S511214        S511214         S511214      SeniorDesign      2
+FL3      S511214        S511214         S511214      SeniorDesign      2
+FL4      S511214        S511214         S511214      SeniorDesign      2
+IC58     LMZ31707RVQ    LMZ31707RVQ     RVQ          DEEP EDDY         1
+L1       100n 1206      L-US1206        C1206        NewSDR            3
+L2       56n 1206       L-US1206        C1206        NewSDR            3
+L3       47n 1206       L-US1206        C1206        NewSDR            3
+L4       100n 1206      L-US1206        C1206        NewSDR            3
+L5       56n 1206       L-US1206        C1206        NewSDR            3
+L6       47n 1206       L-US1206        C1206        NewSDR            3
+L7       100n 1206      L-US1206        C1206        NewSDR            3
+L8       56n 1206       L-US1206        C1206        NewSDR            3
+L9       47n 1206       L-US1206        C1206        NewSDR            3
+L10      100n 1206      L-US1206        C1206        NewSDR            4
+L11      100n 1206      L-US1206        C1206        NewSDR            4
+L12      100n 1206      L-US1206        C1206        NewSDR            4
+L13      100n 1206      L-US1206        C1206        NewSDR            5
+L14      100n 1206      L-US1206        C1206        NewSDR            5
+L15      100n 1206      L-US1206        C1206        NewSDR            5
+L16      100n 1206      L-US1206        C1206        NewSDR            2
+L17      100n 1206      L-US1206        C1206        NewSDR            2
+L18      100n 1206      L-US1206        C1206        NewSDR            2
+L19      100n 1206      L-US1206        C1206        NewSDR            2
+L20      100n 1206      L-US1206        C1206        NewSDR            2
+L21      100n 1206      L-US1206        C1206        NewSDR            2
+L22      100n 1206      L-US1206        C1206        NewSDR            2
+L23      100n 1206      L-US1206        C1206        NewSDR            2
+L24      100n 1206      L-US1206        C1206        NewSDR            2
+L25      100n 1206      L-US1206        C1206        NewSDR            2
+L26      100n 1206      L-US1206        C1206        NewSDR            2
+L31      BLM31PG121SN1L WE-CBF_1206     1206         wuerth-elektronik 1
+LED1     LTST-C170GKT   LEDCHIPLED_0805 CHIPLED_0805 led               1
+LNA_1    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      3
+LNA_2    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      3
+LNA_3    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      3
+LNA_4    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      4
+LNA_5    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      4
+LNA_6    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      4
+LNA_7    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      5
+LNA_8    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      5
+LNA_9    SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      5
+LNA_10   SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      2
+LNA_11   SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      2
+LNA_12   SPF-5043Z      SPF-5043Z       SPF-5043Z    SeniorDesign      2
+Q2       FDV303N        NMOSSOT23       SOT-23       zetex             1
+R4       100k           R-US_R0201      R0201        rcl               1
+R13      100k           R-US_R0201      R0201        rcl               1
+R201     560            R-US_R0603      R0603        rcl               1
+R205     182            R-US_R0603      R0603        rcl               1
+R206     53.6k          R-US_R0603      R0603        rcl               1
+SAW_1    SXBP-140+      SXBP-140+       SXBP-140+    SeniorDesign      3
+SAW_2    TA147FD        TA147FD         TA147FD      SeniorDesign      3
+SAW_3    TA147FD        TA147FD         TA147FD      SeniorDesign      3
+SAW_4    TA147FD        TA147FD         TA147FD      SeniorDesign      3
+SAW_5    TA0576A        TA0576A         TA0576A      SeniorDesign      4
+SAW_6    TA0576A        TA0576A         TA0576A      SeniorDesign      4
+SAW_7    TA0576A        TA0576A         TA0576A      SeniorDesign      4
+SAW_8    TA0576A        TA0576A         TA0576A      SeniorDesign      4
+SAW_9    TA1914A        TA1914A         TA1914A      SeniorDesign      5
+SAW_10   TA1914A        TA1914A         TA1914A      SeniorDesign      5
+SAW_11   TA1914A        TA1914A         TA1914A      SeniorDesign      5
+SAW_12   TA1914A        TA1914A         TA1914A      SeniorDesign      5
+TP10     TPSQB1,27      TPSQB1,27       B1,27        testpad           1
+X1       0733660061     BU-SMA-V        BU-SMA-V     con-coax          3
+X2       0733660061     BU-SMA-V        BU-SMA-V     con-coax          3
+X3       0733660061     BU-SMA-V        BU-SMA-V     con-coax          4
+X4       0733660061     BU-SMA-V        BU-SMA-V     con-coax          4
+X5       0733660061     BU-SMA-V        BU-SMA-V     con-coax          5
+X6       0733660061     BU-SMA-V        BU-SMA-V     con-coax          5
+X7       0733660061     BU-SMA-V        BU-SMA-V     con-coax          2
+X8       0733660061     BU-SMA-V        BU-SMA-V     con-coax          2
