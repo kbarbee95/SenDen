@@ -15617,42 +15617,42 @@ Source: &lt;a href="http://sawtron.com/wp-content/uploads/2018/10/S511214.pdf"&g
 <part name="LNA_3" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
 <part name="SAW_3" library="SeniorDesign" deviceset="TA147FD" device=""/>
 <part name="SAW_4" library="SeniorDesign" deviceset="TA147FD" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0603K" value="8p 5% 0603"/>
-<part name="L2" library="NewSDR" deviceset="L-US" device="1206" value="56n 1206"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0603K" value="8p"/>
+<part name="L2" library="NewSDR" deviceset="L-US" device="1206" value="56n"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="L3" library="NewSDR" deviceset="L-US" device="1206" value="47n 1206"/>
+<part name="L3" library="NewSDR" deviceset="L-US" device="1206" value="47n"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0603K" value="12p 5% 0603"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0603K" value="12p"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="X8" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603K" value="8p 5% 0603"/>
-<part name="L5" library="NewSDR" deviceset="L-US" device="1206" value="56n 1206"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603K" value="8p"/>
+<part name="L5" library="NewSDR" deviceset="L-US" device="1206" value="56n"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0603K" value="12p 5% 0603"/>
-<part name="L6" library="NewSDR" deviceset="L-US" device="1206" value="47n 1206"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0603K" value="12p"/>
+<part name="L6" library="NewSDR" deviceset="L-US" device="1206" value="47n"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0603K" value="8p 5% 0603"/>
-<part name="L8" library="NewSDR" deviceset="L-US" device="1206" value="56n 1206"/>
-<part name="L9" library="NewSDR" deviceset="L-US" device="1206" value="47n 1206"/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0603K" value="12p 5% 0603"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0603K" value="8p"/>
+<part name="L8" library="NewSDR" deviceset="L-US" device="1206" value="56n"/>
+<part name="L9" library="NewSDR" deviceset="L-US" device="1206" value="47n"/>
+<part name="C13" library="rcl" deviceset="C-US" device="C0603K" value="12p"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
@@ -15660,76 +15660,76 @@ Source: &lt;a href="http://sawtron.com/wp-content/uploads/2018/10/S511214.pdf"&g
 <part name="X9" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V3" library="supply2" deviceset="GND" device=""/>
 <part name="LNA_4" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C16" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C15" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C16" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C15" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SAW_5" library="SeniorDesign" deviceset="TA0576A" device=""/>
 <part name="LNA_5" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C18" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C18" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="C21" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C20" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C19" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C21" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C20" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C19" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="SAW_6" library="SeniorDesign" deviceset="TA0576A" device=""/>
 <part name="LNA_6" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C22" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C22" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="C25" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C25" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C23" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="SAW_7" library="SeniorDesign" deviceset="TA0576A" device=""/>
-<part name="L11" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="L10" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="L12" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L11" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="L10" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="L12" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_8" library="SeniorDesign" deviceset="TA0576A" device=""/>
 <part name="X16" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V4" library="supply2" deviceset="GND" device=""/>
 <part name="X17" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V5" library="supply2" deviceset="GND" device=""/>
 <part name="LNA_7" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C26" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C26" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C28" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C27" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C29" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C28" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C27" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
-<part name="L13" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L13" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_9" library="SeniorDesign" deviceset="TA1914A" device=""/>
 <part name="LNA_8" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C30" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C30" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
-<part name="C33" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C32" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C31" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C33" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C32" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C31" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
-<part name="L14" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L14" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_10" library="SeniorDesign" deviceset="TA1914A" device=""/>
 <part name="LNA_9" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
-<part name="C34" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
+<part name="C34" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
-<part name="C37" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C36" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C35" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C37" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C36" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C35" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
-<part name="L15" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L15" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_11" library="SeniorDesign" deviceset="TA1914A" device=""/>
 <part name="SAW_12" library="SeniorDesign" deviceset="TA1914A" device=""/>
 <part name="X24" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V6" library="supply2" deviceset="GND" device=""/>
-<part name="L1" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="L4" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="L7" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L1" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="L4" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="L7" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="V7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
@@ -15740,47 +15740,47 @@ Source: &lt;a href="http://sawtron.com/wp-content/uploads/2018/10/S511214.pdf"&g
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="X25" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V9" library="supply2" deviceset="GND" device=""/>
-<part name="C38" library="rcl" deviceset="C-US" device="C0603K" value="160p 50v c0g"/>
-<part name="L16" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="C38" library="rcl" deviceset="C-US" device="C0603K" value="160p"/>
+<part name="L16" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="LNA_10" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
-<part name="C41" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C40" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C41" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C40" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
-<part name="L18" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L18" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_13" library="SeniorDesign" deviceset="S511214" device=""/>
-<part name="C39" library="rcl" deviceset="C-US" device="C0603K" value="180p 50v c0g"/>
-<part name="L17" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="C42" library="rcl" deviceset="C-US" device="C0603K" value="160p 50v c0g"/>
-<part name="L19" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="C39" library="rcl" deviceset="C-US" device="C0603K" value="180p"/>
+<part name="L17" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="C42" library="rcl" deviceset="C-US" device="C0603K" value="160p"/>
+<part name="L19" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_14" library="SeniorDesign" deviceset="S511214" device=""/>
-<part name="C43" library="rcl" deviceset="C-US" device="C0603K" value="180p 50v c0g"/>
-<part name="L20" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="C43" library="rcl" deviceset="C-US" device="C0603K" value="180p"/>
+<part name="L20" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="LNA_11" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
-<part name="C45" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C44" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C45" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C44" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
-<part name="L21" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="C46" library="rcl" deviceset="C-US" device="C0603K" value="160p 50v c0g"/>
-<part name="L22" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L21" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="C46" library="rcl" deviceset="C-US" device="C0603K" value="160p"/>
+<part name="L22" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_15" library="SeniorDesign" deviceset="S511214" device=""/>
-<part name="C47" library="rcl" deviceset="C-US" device="C0603K" value="180p 50v c0g"/>
-<part name="L23" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="C47" library="rcl" deviceset="C-US" device="C0603K" value="180p"/>
+<part name="L23" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="LNA_12" library="SeniorDesign" deviceset="SPF-5043Z" device=""/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
-<part name="C49" library="rcl" deviceset="C-US" device="C0603K" value="100p 50v c0g"/>
-<part name="C48" library="rcl" deviceset="C-US" device="C0603K" value="0.1u 16V X7R"/>
+<part name="C49" library="rcl" deviceset="C-US" device="C0603K" value="100p"/>
+<part name="C48" library="rcl" deviceset="C-US" device="C0603K" value="0.1u"/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
-<part name="L24" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
-<part name="C50" library="rcl" deviceset="C-US" device="C0603K" value="160p 50v c0g"/>
-<part name="L25" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="L24" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
+<part name="C50" library="rcl" deviceset="C-US" device="C0603K" value="160p"/>
+<part name="L25" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="SAW_16" library="SeniorDesign" deviceset="S511214" device=""/>
-<part name="C51" library="rcl" deviceset="C-US" device="C0603K" value="180p 50v c0g"/>
-<part name="L26" library="NewSDR" deviceset="L-US" device="1206" value="100n 1206"/>
+<part name="C51" library="rcl" deviceset="C-US" device="C0603K" value="180p"/>
+<part name="L26" library="NewSDR" deviceset="L-US" device="1206" value="100n"/>
 <part name="X32" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V10" library="supply2" deviceset="GND" device=""/>
 <part name="V11" library="supply2" deviceset="GND" device=""/>
@@ -16497,7 +16497,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L16" gate="G$1" x="33.02" y="185.42" smashed="yes">
 <attribute name="NAME" x="33.02" y="186.69" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="38.1" y="176.53" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="33.02" y="184.15" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LNA_10" gate="G$1" x="184.15" y="190.5" smashed="yes">
 <attribute name="NAME" x="180.34" y="199.39" size="1.778" layer="95"/>
@@ -16512,7 +16512,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C40" gate="G$1" x="175.26" y="218.44" smashed="yes">
 <attribute name="NAME" x="176.276" y="219.075" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.656" y="221.869" size="1.778" layer="96"/>
+<attribute name="VALUE" x="176.276" y="214.249" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY51" gate="GND" x="189.23" y="208.28" smashed="yes">
 <attribute name="VALUE" x="187.325" y="205.105" size="1.778" layer="96"/>
@@ -16522,7 +16522,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L18" gate="G$1" x="208.28" y="213.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="209.55" y="218.44" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="203.2" y="222.25" size="1.778" layer="96"/>
+<attribute name="VALUE" x="214.122" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SAW_13" gate="G$1" x="76.2" y="193.04" rot="R180"/>
 <instance part="C39" gate="G$1" x="143.51" y="193.04" smashed="yes" rot="R90">
@@ -16531,7 +16531,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L17" gate="G$1" x="151.13" y="185.42" smashed="yes">
 <attribute name="NAME" x="151.13" y="186.69" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="156.21" y="176.53" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="152.908" y="184.912" size="1.778" layer="96"/>
 </instance>
 <instance part="C42" gate="G$1" x="232.41" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.775" y="188.976" size="1.778" layer="95" rot="R90"/>
@@ -16539,7 +16539,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L19" gate="G$1" x="227.33" y="180.34" smashed="yes">
 <attribute name="NAME" x="227.33" y="181.61" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="232.41" y="171.45" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="229.108" y="180.086" size="1.778" layer="96"/>
 </instance>
 <instance part="SAW_14" gate="G$1" x="287.02" y="193.04" rot="R180"/>
 <instance part="C43" gate="G$1" x="335.28" y="193.04" smashed="yes" rot="R90">
@@ -16548,7 +16548,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L20" gate="G$1" x="342.9" y="185.42" smashed="yes">
 <attribute name="NAME" x="342.9" y="186.69" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="347.98" y="176.53" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="344.678" y="184.912" size="1.778" layer="96"/>
 </instance>
 <instance part="LNA_11" gate="G$1" x="69.85" y="78.74" smashed="yes">
 <attribute name="NAME" x="66.04" y="87.63" size="1.778" layer="95"/>
@@ -16563,7 +16563,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C44" gate="G$1" x="60.96" y="105.41" smashed="yes">
 <attribute name="NAME" x="61.976" y="106.045" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.356" y="108.839" size="1.778" layer="96"/>
+<attribute name="VALUE" x="61.976" y="101.219" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY54" gate="GND" x="74.93" y="97.79" smashed="yes">
 <attribute name="VALUE" x="73.025" y="94.615" size="1.778" layer="96"/>
@@ -16573,7 +16573,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L21" gate="G$1" x="93.98" y="95.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.25" y="100.33" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="88.9" y="104.14" size="1.778" layer="96"/>
+<attribute name="VALUE" x="99.822" y="96.012" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C46" gate="G$1" x="109.22" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="108.585" y="77.216" size="1.778" layer="95" rot="R90"/>
@@ -16581,7 +16581,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L22" gate="G$1" x="104.14" y="66.04" smashed="yes">
 <attribute name="NAME" x="104.14" y="67.31" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="109.22" y="57.15" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="111.76" y="67.31" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SAW_15" gate="G$1" x="175.26" y="81.28" rot="R180"/>
 <instance part="C47" gate="G$1" x="241.3" y="81.28" smashed="yes" rot="R90">
@@ -16590,7 +16590,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L23" gate="G$1" x="248.92" y="73.66" smashed="yes">
 <attribute name="NAME" x="248.92" y="74.93" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="254" y="64.77" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="256.032" y="74.93" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LNA_12" gate="G$1" x="283.21" y="78.74" smashed="yes">
 <attribute name="NAME" x="279.4" y="87.63" size="1.778" layer="95"/>
@@ -16605,7 +16605,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C48" gate="G$1" x="274.32" y="106.68" smashed="yes">
 <attribute name="NAME" x="275.336" y="107.315" size="1.778" layer="95"/>
-<attribute name="VALUE" x="267.716" y="110.109" size="1.778" layer="96"/>
+<attribute name="VALUE" x="275.336" y="102.235" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY57" gate="GND" x="288.29" y="96.52" smashed="yes">
 <attribute name="VALUE" x="286.385" y="93.345" size="1.778" layer="96"/>
@@ -16615,7 +16615,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L24" gate="G$1" x="307.34" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="308.61" y="106.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="302.26" y="110.49" size="1.778" layer="96"/>
+<attribute name="VALUE" x="313.436" y="101.6" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C50" gate="G$1" x="71.12" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.485" y="25.146" size="1.778" layer="95" rot="R90"/>
@@ -16623,7 +16623,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L25" gate="G$1" x="66.04" y="16.51" smashed="yes">
 <attribute name="NAME" x="66.04" y="17.78" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="71.12" y="7.62" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="73.406" y="17.78" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SAW_16" gate="G$1" x="129.54" y="29.21" rot="R180"/>
 <instance part="C51" gate="G$1" x="165.1" y="29.21" smashed="yes" rot="R90">
@@ -16632,7 +16632,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L26" gate="G$1" x="172.72" y="21.59" smashed="yes">
 <attribute name="NAME" x="172.72" y="22.86" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="177.8" y="12.7" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="180.086" y="22.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X32" gate="G$1" x="218.44" y="29.21" smashed="yes" rot="MR0">
 <attribute name="NAME" x="220.98" y="32.512" size="1.778" layer="95" rot="MR0"/>
@@ -17682,7 +17682,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C2" gate="G$1" x="123.19" y="184.15" smashed="yes">
 <attribute name="NAME" x="124.206" y="184.785" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.586" y="187.579" size="1.778" layer="96"/>
+<attribute name="VALUE" x="124.206" y="179.959" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="137.16" y="172.72" smashed="yes">
 <attribute name="VALUE" x="135.255" y="169.545" size="1.778" layer="96"/>
@@ -17695,8 +17695,8 @@ GROUND GATE</text>
 <attribute name="VALUE" x="212.344" y="13.081" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C10" gate="G$1" x="227.33" y="8.89" smashed="yes" rot="R180">
-<attribute name="NAME" x="226.314" y="8.255" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="233.934" y="5.461" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="233.934" y="13.335" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="235.712" y="9.271" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="213.36" y="20.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="215.265" y="23.495" size="1.778" layer="96" rot="R180"/>
@@ -17710,7 +17710,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C6" gate="G$1" x="313.69" y="191.77" smashed="yes" rot="MR180">
 <attribute name="NAME" x="314.706" y="191.135" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="307.086" y="188.341" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="314.706" y="195.961" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="322.58" y="148.59" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="342.265" y="107.315" size="1.778" layer="96" rot="MR0"/>
@@ -17723,7 +17723,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C4" gate="G$1" x="170.18" y="152.4" smashed="yes" rot="MR270">
 <attribute name="NAME" x="169.545" y="151.384" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="167.386" y="157.861" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="174.625" y="150.876" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="L2" gate="G$1" x="193.04" y="196.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.31" y="201.93" size="1.778" layer="95" rot="R270"/>
@@ -17744,7 +17744,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C5" gate="G$1" x="295.91" y="173.99" smashed="yes" rot="MR270">
 <attribute name="NAME" x="295.275" y="172.974" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="293.116" y="179.451" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="300.101" y="172.974" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="52.07" y="207.01" smashed="yes">
 <attribute name="VALUE" x="50.165" y="203.835" size="1.778" layer="96"/>
@@ -17760,7 +17760,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C8" gate="G$1" x="342.9" y="62.23" smashed="yes" rot="MR270">
 <attribute name="NAME" x="342.265" y="61.214" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="340.106" y="67.691" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="347.091" y="61.214" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="L5" gate="G$1" x="340.36" y="92.71" smashed="yes">
 <attribute name="NAME" x="339.09" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -17771,7 +17771,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C9" gate="G$1" x="415.29" y="49.53" smashed="yes" rot="MR0">
 <attribute name="NAME" x="414.274" y="50.165" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="420.751" y="52.324" size="1.778" layer="96" rot="MR270"/>
+<attribute name="VALUE" x="414.274" y="45.339" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="L6" gate="G$1" x="411.48" y="92.71" smashed="yes">
 <attribute name="NAME" x="410.21" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -17782,11 +17782,11 @@ GROUND GATE</text>
 </instance>
 <instance part="C12" gate="G$1" x="154.94" y="41.91" smashed="yes" rot="MR90">
 <attribute name="NAME" x="155.575" y="42.926" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="157.734" y="36.449" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="155.829" y="37.846" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="L8" gate="G$1" x="102.87" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="31.75" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="99.06" y="31.75" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="106.68" y="31.75" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="L9" gate="G$1" x="34.29" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.56" y="31.75" size="1.778" layer="95" rot="R270"/>
@@ -17794,7 +17794,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C13" gate="G$1" x="29.21" y="44.45" smashed="yes" rot="MR90">
 <attribute name="NAME" x="29.845" y="45.466" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="32.004" y="38.989" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="24.765" y="45.72" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="SUPPLY20" gate="GND" x="363.22" y="95.25" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="361.315" y="98.425" size="1.778" layer="96" rot="MR180"/>
@@ -17810,15 +17810,15 @@ GROUND GATE</text>
 </instance>
 <instance part="L1" gate="G$1" x="156.21" y="179.07" smashed="yes" rot="R180">
 <attribute name="NAME" x="157.48" y="184.15" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="151.13" y="187.96" size="1.778" layer="96"/>
+<attribute name="VALUE" x="160.274" y="186.69" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="L4" gate="G$1" x="356.87" y="181.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="358.14" y="186.69" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="354.33" y="176.53" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="362.712" y="183.896" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L7" gate="G$1" x="191.77" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="193.04" y="19.05" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="189.23" y="8.89" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="189.23" y="13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X2" gate="G$1" x="88.9" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.598" y="139.7" size="1.778" layer="95" rot="R90"/>
@@ -18753,7 +18753,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C15" gate="G$1" x="68.58" y="205.74" smashed="yes">
 <attribute name="NAME" x="69.596" y="206.375" size="1.778" layer="95"/>
-<attribute name="VALUE" x="61.976" y="209.169" size="1.778" layer="96"/>
+<attribute name="VALUE" x="69.596" y="201.549" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="82.55" y="195.58" smashed="yes">
 <attribute name="VALUE" x="80.645" y="192.405" size="1.778" layer="96"/>
@@ -18786,7 +18786,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C19" gate="G$1" x="261.62" y="203.2" smashed="yes">
 <attribute name="NAME" x="262.636" y="203.835" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.016" y="206.629" size="1.778" layer="96"/>
+<attribute name="VALUE" x="262.636" y="199.009" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY28" gate="GND" x="275.59" y="193.04" smashed="yes">
 <attribute name="VALUE" x="273.685" y="189.865" size="1.778" layer="96"/>
@@ -18819,7 +18819,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C23" gate="G$1" x="335.28" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="334.264" y="80.645" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="341.884" y="77.851" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="334.264" y="85.471" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY31" gate="GND" x="321.31" y="91.44" smashed="yes" rot="R180">
 <attribute name="VALUE" x="323.215" y="94.615" size="1.778" layer="96" rot="R180"/>
@@ -18833,15 +18833,15 @@ GROUND GATE</text>
 </instance>
 <instance part="L11" gate="G$1" x="294.64" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="295.91" y="203.2" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="289.56" y="207.01" size="1.778" layer="96"/>
+<attribute name="VALUE" x="298.45" y="203.2" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="L10" gate="G$1" x="101.6" y="200.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="102.87" y="205.74" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="96.52" y="209.55" size="1.778" layer="96"/>
+<attribute name="VALUE" x="107.95" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L12" gate="G$1" x="302.26" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="303.53" y="93.98" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="297.18" y="77.47" size="1.778" layer="96"/>
+<attribute name="VALUE" x="306.07" y="93.98" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SAW_8" gate="G$1" x="149.86" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="133.35" y="104.14" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -19749,7 +19749,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C27" gate="G$1" x="66.04" y="198.12" smashed="yes">
 <attribute name="NAME" x="67.056" y="198.755" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.436" y="201.549" size="1.778" layer="96"/>
+<attribute name="VALUE" x="67.056" y="193.929" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY34" gate="GND" x="80.01" y="187.96" smashed="yes">
 <attribute name="VALUE" x="78.105" y="184.785" size="1.778" layer="96"/>
@@ -19759,7 +19759,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L13" gate="G$1" x="99.06" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.33" y="198.12" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="93.98" y="201.93" size="1.778" layer="96"/>
+<attribute name="VALUE" x="102.87" y="198.12" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SAW_9" gate="G$1" x="172.72" y="167.64"/>
 <instance part="LNA_8" gate="G$1" x="270.51" y="170.18" smashed="yes">
@@ -19783,7 +19783,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C31" gate="G$1" x="261.62" y="198.12" smashed="yes">
 <attribute name="NAME" x="262.636" y="198.755" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.016" y="201.549" size="1.778" layer="96"/>
+<attribute name="VALUE" x="262.636" y="193.929" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY37" gate="GND" x="275.59" y="187.96" smashed="yes">
 <attribute name="VALUE" x="273.685" y="184.785" size="1.778" layer="96"/>
@@ -19793,7 +19793,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L14" gate="G$1" x="294.64" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="295.91" y="198.12" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="289.56" y="201.93" size="1.778" layer="96"/>
+<attribute name="VALUE" x="298.704" y="198.12" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SAW_10" gate="G$1" x="368.3" y="167.64"/>
 <instance part="LNA_9" gate="G$1" x="323.85" y="96.52" smashed="yes" rot="R180">
@@ -19817,7 +19817,7 @@ GROUND GATE</text>
 </instance>
 <instance part="C35" gate="G$1" x="332.74" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="331.724" y="67.945" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="339.344" y="65.151" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="331.724" y="72.771" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY40" gate="GND" x="318.77" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="320.675" y="81.915" size="1.778" layer="96" rot="R180"/>
@@ -19827,7 +19827,7 @@ GROUND GATE</text>
 </instance>
 <instance part="L15" gate="G$1" x="299.72" y="73.66" smashed="yes">
 <attribute name="NAME" x="298.45" y="68.58" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="304.8" y="64.77" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="303.53" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SAW_11" gate="G$1" x="220.98" y="99.06" rot="R180"/>
 <instance part="SAW_12" gate="G$1" x="124.46" y="99.06" rot="R180"/>
