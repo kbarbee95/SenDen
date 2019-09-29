@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="20" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="PWR" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="+5V3" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1053,7 +1053,7 @@ necessary adjustments and save your customized
 design rules under a new name.</description>
 <param name="layerSetup" value="(1*2)+(15*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtIsolate" value="0.15mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -1248,7 +1248,7 @@ design rules under a new name.</description>
 <element name="C36" library="rcl" package="C0603K" value="100p" x="90.678" y="121.412" rot="R90"/>
 <element name="C37" library="rcl" package="C0603K" value="100p" x="95.123" y="113.792"/>
 <element name="C4" library="rcl" package="C0603K" value="8p" x="56.261" y="46.736"/>
-<element name="C459" library="DEEP EDDY" package="NFM31PC276" value="" x="166.37" y="111.252" rot="R270"/>
+<element name="C459" library="DEEP EDDY" package="NFM31PC276" value="" x="167.767" y="111.252" rot="R270"/>
 <element name="C481" library="rcl" package="C1206K" value="33u" x="159.004" y="131.064"/>
 <element name="C482" library="rcl" package="C1206K" value="33u" x="159.004" y="128.016"/>
 <element name="C483" library="rcl" package="PANASONIC_D" value="EEE-FK1V470P" x="165.608" y="131.572" rot="R270">
@@ -1257,8 +1257,8 @@ design rules under a new name.</description>
 <element name="C484" library="rcl" package="PANASONIC_D" value="EEE-FK1V470P" x="151.892" y="125.476" rot="R90">
 <attribute name="PN" value="EEE-FK1V470P" x="151.892" y="125.476" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C489" library="rcl" package="C0402K" value=".1u 50V" x="170.18" y="111.76" rot="R270"/>
-<element name="C490" library="rcl" package="C0402K" value=".1u 50V" x="171.704" y="111.76" rot="R270"/>
+<element name="C489" library="rcl" package="C0402K" value=".1u 50V" x="170.815" y="111.76" rot="R270"/>
+<element name="C490" library="rcl" package="C0402K" value=".1u 50V" x="172.339" y="111.76" rot="R270"/>
 <element name="C491" library="rcl" package="C0402K" value=".1u 50V" x="176.3014" y="118.237"/>
 <element name="C492" library="rcl" package="C0402K" value=".1u 50V" x="175.768" y="124.968"/>
 <element name="C493" library="rcl" package="C0402K" value=".1u 50V" x="169.672" y="127.508" rot="R180"/>
@@ -1281,8 +1281,8 @@ design rules under a new name.</description>
 <element name="L15" library="NewSDR" package="C1206" value="100n" x="93.853" y="117.602" rot="R90"/>
 <element name="L2" library="NewSDR" package="C1206" value="56n" x="57.277" y="51.562" rot="R270"/>
 <element name="L3" library="NewSDR" package="C1206" value="47n" x="86.995" y="48.26" rot="R90"/>
-<element name="L31" library="wuerth-elektronik" package="1206" value="BLM31PG121SN1L" x="142.24" y="125.476" rot="R270">
-<attribute name="INDUCTANCE" value="32u" x="142.24" y="125.476" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="L31" library="wuerth-elektronik" package="1206" value="BLM31PG121SN1L" x="140.716" y="125.476" rot="R270">
+<attribute name="INDUCTANCE" value="32u" x="140.716" y="125.476" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L4" library="NewSDR" package="C1206" value="100n" x="94.742" y="49.53" rot="R90"/>
 <element name="L5" library="NewSDR" package="C1206" value="56n" x="99.187" y="51.435" rot="R270"/>
@@ -1964,11 +1964,11 @@ design rules under a new name.</description>
 <vertex x="-0.254" y="0.254"/>
 </polygon>
 <polygon width="0.4064" layer="1">
-<vertex x="6.6548" y="39.9796"/>
+<vertex x="7.1628" y="40.4876"/>
 <vertex x="179.705" y="40.2336"/>
 <vertex x="179.705" y="36.8046"/>
-<vertex x="4.318" y="37.1856"/>
-<vertex x="4.318" y="39.9796"/>
+<vertex x="4.318" y="36.6776"/>
+<vertex x="4.318" y="40.4876"/>
 </polygon>
 <contactref element="LNA_11" pad="4"/>
 <contactref element="LNA_11" pad="2"/>
@@ -2942,9 +2942,170 @@ design rules under a new name.</description>
 <via x="91.948" y="56.388" extent="1-2" drill="0.254"/>
 <via x="49.784" y="57.912" extent="1-2" drill="0.254"/>
 <via x="50.038" y="56.642" extent="1-2" drill="0.254"/>
+<polygon width="0.4064" layer="1">
+<vertex x="5.0038" y="108.712"/>
+<vertex x="141.859" y="108.8136"/>
+<vertex x="141.859" y="105.3846"/>
+<vertex x="3.048" y="105.2576"/>
+<vertex x="2.9972" y="108.712"/>
+</polygon>
+<via x="5.334" y="107.061" extent="1-2" drill="0.254"/>
+<via x="7.874" y="107.061" extent="1-2" drill="0.254"/>
+<via x="10.414" y="107.061" extent="1-2" drill="0.254"/>
+<via x="12.954" y="107.061" extent="1-2" drill="0.254"/>
+<via x="15.494" y="107.061" extent="1-2" drill="0.254"/>
+<via x="18.034" y="107.061" extent="1-2" drill="0.254"/>
+<via x="20.574" y="107.061" extent="1-2" drill="0.254"/>
+<via x="23.114" y="107.061" extent="1-2" drill="0.254"/>
+<via x="25.654" y="107.061" extent="1-2" drill="0.254"/>
+<via x="28.194" y="107.061" extent="1-2" drill="0.254"/>
+<via x="30.734" y="107.061" extent="1-2" drill="0.254"/>
+<via x="33.274" y="107.061" extent="1-2" drill="0.254"/>
+<via x="35.814" y="107.061" extent="1-2" drill="0.254"/>
+<via x="38.354" y="107.061" extent="1-2" drill="0.254"/>
+<via x="41.529" y="107.061" extent="1-2" drill="0.254"/>
+<via x="44.069" y="107.061" extent="1-2" drill="0.254"/>
+<via x="46.609" y="107.061" extent="1-2" drill="0.254"/>
+<via x="49.149" y="107.061" extent="1-2" drill="0.254"/>
+<via x="51.689" y="107.061" extent="1-2" drill="0.254"/>
+<via x="54.229" y="107.061" extent="1-2" drill="0.254"/>
+<via x="56.769" y="107.061" extent="1-2" drill="0.254"/>
+<via x="59.309" y="107.061" extent="1-2" drill="0.254"/>
+<via x="61.849" y="107.061" extent="1-2" drill="0.254"/>
+<via x="64.389" y="107.061" extent="1-2" drill="0.254"/>
+<via x="66.929" y="107.061" extent="1-2" drill="0.254"/>
+<via x="69.469" y="107.061" extent="1-2" drill="0.254"/>
+<via x="72.009" y="107.061" extent="1-2" drill="0.254"/>
+<via x="74.549" y="107.061" extent="1-2" drill="0.254"/>
+<via x="77.089" y="107.061" extent="1-2" drill="0.254"/>
+<via x="79.629" y="107.061" extent="1-2" drill="0.254"/>
+<via x="82.169" y="107.061" extent="1-2" drill="0.254"/>
+<via x="84.709" y="107.061" extent="1-2" drill="0.254"/>
+<via x="87.249" y="107.061" extent="1-2" drill="0.254"/>
+<via x="89.789" y="107.061" extent="1-2" drill="0.254"/>
+<via x="92.329" y="107.061" extent="1-2" drill="0.254"/>
+<via x="94.869" y="107.061" extent="1-2" drill="0.254"/>
+<via x="97.409" y="107.061" extent="1-2" drill="0.254"/>
+<via x="99.949" y="107.061" extent="1-2" drill="0.254"/>
+<via x="102.489" y="107.061" extent="1-2" drill="0.254"/>
+<via x="105.029" y="107.061" extent="1-2" drill="0.254"/>
+<via x="107.569" y="107.061" extent="1-2" drill="0.254"/>
+<via x="110.109" y="107.061" extent="1-2" drill="0.254"/>
+<via x="112.649" y="107.061" extent="1-2" drill="0.254"/>
+<via x="115.189" y="107.061" extent="1-2" drill="0.254"/>
+<via x="117.729" y="107.061" extent="1-2" drill="0.254"/>
+<via x="120.269" y="107.061" extent="1-2" drill="0.254"/>
+<via x="122.809" y="107.061" extent="1-2" drill="0.254"/>
+<via x="125.349" y="107.061" extent="1-2" drill="0.254"/>
+<via x="127.889" y="107.061" extent="1-2" drill="0.254"/>
+<via x="130.429" y="107.061" extent="1-2" drill="0.254"/>
+<via x="132.969" y="107.061" extent="1-2" drill="0.254"/>
+<via x="135.509" y="107.061" extent="1-2" drill="0.254"/>
+<via x="138.049" y="107.061" extent="1-2" drill="0.254"/>
+<via x="140.589" y="107.061" extent="1-2" drill="0.254"/>
+<via x="178.308" y="112.776" extent="1-2" drill="0.254"/>
+<via x="180.34" y="111.252" extent="1-2" drill="0.254"/>
+<via x="176.276" y="111.252" extent="1-2" drill="0.254"/>
+<polygon width="0.1524" layer="1">
+<vertex x="175.768" y="110.236"/>
+<vertex x="175.768" y="113.284"/>
+<vertex x="180.848" y="113.284"/>
+<vertex x="180.848" y="110.236"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="156.972" y="117.348"/>
+<vertex x="160.02" y="117.348"/>
+<vertex x="160.02" y="114.3"/>
+<vertex x="156.972" y="114.3"/>
+</polygon>
+<via x="157.48" y="116.332" extent="1-2" drill="0.254"/>
+<via x="159.004" y="114.808" extent="1-2" drill="0.254"/>
+<polygon width="0.254" layer="1" isolate="0.254">
+<vertex x="159.512" y="124.46"/>
+<vertex x="159.512" y="125.476"/>
+<vertex x="156.464" y="125.476"/>
+<vertex x="156.464" y="118.872"/>
+<vertex x="159.512" y="118.872"/>
+</polygon>
+<via x="158.496" y="124.968" extent="1-2" drill="0.254"/>
+<via x="156.9466" y="123.6472" extent="1-2" drill="0.254"/>
+<via x="158.496" y="122.428" extent="1-2" drill="0.254"/>
+<via x="156.972" y="120.904" extent="1-2" drill="0.254"/>
+<via x="158.6484" y="119.5578" extent="1-2" drill="0.254"/>
+<via x="167.64" y="127.508" extent="1-2" drill="0.254"/>
+<polygon width="0.1524" layer="1">
+<vertex x="169.672" y="128.016"/>
+<vertex x="167.132" y="128.016"/>
+<vertex x="167.132" y="127"/>
+<vertex x="169.672" y="127"/>
+</polygon>
+<via x="165.608" y="136.652" extent="1-2" drill="0.254"/>
+<via x="167.64" y="133.604" extent="1-2" drill="0.254"/>
+<polygon width="0.1524" layer="1" isolate="0.254" rank="2">
+<vertex x="165.1" y="135.128"/>
+<vertex x="165.1" y="137.16"/>
+<vertex x="168.148" y="137.16"/>
+<vertex x="168.148" y="132.588"/>
+<vertex x="165.608" y="132.588"/>
+<vertex x="165.608" y="135.128"/>
+</polygon>
+<via x="167.64" y="135.636" extent="1-2" drill="0.254"/>
+<via x="142.748" y="125.476" extent="1-2" drill="0.254"/>
+<via x="147.828" y="125.476" extent="1-2" drill="0.254"/>
+<via x="151.892" y="120.396" extent="1-2" drill="0.254"/>
+<via x="153.924" y="122.936" extent="1-2" drill="0.254"/>
+<via x="149.86" y="122.936" extent="1-2" drill="0.254"/>
+<polygon width="0.1524" layer="1">
+<vertex x="151.892" y="125.476"/>
+<vertex x="154.432" y="125.476"/>
+<vertex x="154.432" y="119.888"/>
+<vertex x="149.352" y="119.888"/>
+<vertex x="149.352" y="125.476"/>
+</polygon>
+<polygon width="0.1524" layer="1" rank="2">
+<vertex x="144.272" y="126.492"/>
+<vertex x="148.336" y="126.492"/>
+<vertex x="148.336" y="124.46"/>
+<vertex x="142.24" y="124.46"/>
+<vertex x="142.24" y="126.492"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="159.512" y="132.08"/>
+<vertex x="161.544" y="132.08"/>
+<vertex x="163.576" y="130.048"/>
+<vertex x="163.576" y="126.492"/>
+<vertex x="159.512" y="126.492"/>
+</polygon>
+<via x="162.56" y="130.048" extent="1-2" drill="0.254"/>
+<via x="162.56" y="128.524" extent="1-2" drill="0.254"/>
+<via x="162.56" y="127" extent="1-2" drill="0.254"/>
+<polygon width="0.1524" layer="1" isolate="0.254" rank="2">
+<vertex x="163.068" y="127.508"/>
+<vertex x="164.592" y="127.508"/>
+<vertex x="164.9984" y="127"/>
+<vertex x="164.9984" y="123.444"/>
+<vertex x="164.592" y="122.936"/>
+<vertex x="162.56" y="122.936"/>
+<vertex x="162.56" y="123.444"/>
+<vertex x="164.084" y="123.444"/>
+<vertex x="164.592" y="123.952"/>
+<vertex x="164.592" y="126.492"/>
+<vertex x="164.084" y="127"/>
+<vertex x="163.068" y="127"/>
+</polygon>
+<via x="164.592" y="127" extent="1-2" drill="0.254"/>
+<via x="164.592" y="123.444" extent="1-2" drill="0.254"/>
+<polygon width="0.1016" layer="1">
+<vertex x="157.4546" y="118.1354"/>
+<vertex x="156.7942" y="118.1354"/>
+<vertex x="156.7942" y="118.7704"/>
+<vertex x="156.845" y="118.8212"/>
+<vertex x="157.4038" y="118.8212"/>
+<vertex x="157.4546" y="118.7704"/>
+</polygon>
 <wire x1="105.7862" y1="133.3058" x2="105.4862" y2="132.9058" width="0" layer="19" extent="1-1"/>
-<wire x1="167.12" y1="111.252" x2="167.57" y2="111.252" width="0" layer="19" extent="1-1"/>
-<wire x1="165.62" y1="111.252" x2="165.17" y2="111.252" width="0" layer="19" extent="1-1"/>
+<wire x1="168.517" y1="111.252" x2="168.967" y2="111.252" width="0" layer="19" extent="1-1"/>
+<wire x1="167.017" y1="111.252" x2="166.567" y2="111.252" width="0" layer="19" extent="1-1"/>
 <wire x1="105.4862" y1="131.3558" x2="105.7862" y2="130.9558" width="0" layer="19" extent="1-1"/>
 <wire x1="96.6216" y1="133.49" x2="96.3216" y2="133.89" width="0" layer="19" extent="1-1"/>
 <wire x1="96.6216" y1="131.94" x2="96.3216" y2="131.54" width="0" layer="19" extent="1-1"/>
@@ -3004,6 +3165,10 @@ design rules under a new name.</description>
 <wire x1="94.9446" y1="26.4316" x2="96.0946" y2="26.9066" width="0" layer="19" extent="1-1"/>
 <wire x1="54.3046" y1="63.3632" x2="55.4546" y2="63.8382" width="0" layer="19" extent="1-1"/>
 <wire x1="54.0252" y1="28.108" x2="55.1752" y2="28.583" width="0" layer="19" extent="1-1"/>
+<wire x1="163.319" y1="125.225" x2="164.694" y2="125.575" width="0" layer="19" extent="1-1"/>
+<wire x1="170.815" y1="111.16" x2="168.967" y2="111.252" width="0" layer="19" extent="1-1"/>
+<wire x1="172.339" y1="111.16" x2="170.815" y2="111.16" width="0" layer="19" extent="1-1"/>
+<wire x1="157.225" y1="118.364" x2="158.6484" y2="119.5578" width="0" layer="19" extent="1-1"/>
 <wire x1="81.915" y1="5.3818" x2="80.01" y2="5.3848" width="0" layer="19" extent="1-1"/>
 <wire x1="90.567" y1="46.34" x2="88.646" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="134.382" y1="46.34" x2="132.207" y2="46.482" width="0" layer="19" extent="1-1"/>
@@ -3016,8 +3181,6 @@ design rules under a new name.</description>
 <wire x1="56.3214" y1="26.035" x2="55.9752" y2="28.583" width="0" layer="19" extent="1-1"/>
 <wire x1="101.8636" y1="128.651" x2="101.4412" y2="131.2498" width="0" layer="19" extent="1-1"/>
 <wire x1="101.9906" y1="62.7634" x2="100.7046" y2="65.0574" width="0" layer="19" extent="1-1"/>
-<wire x1="170.18" y1="111.16" x2="167.57" y2="111.252" width="0" layer="19" extent="1-1"/>
-<wire x1="171.704" y1="111.16" x2="170.18" y2="111.16" width="0" layer="19" extent="1-1"/>
 <wire x1="146.8978" y1="61.2902" x2="145.3578" y2="63.5842" width="0" layer="19" extent="1-1"/>
 <wire x1="72.044" y1="95.5294" x2="70.504" y2="97.8234" width="0" layer="19" extent="1-1"/>
 <wire x1="31.658" y1="96.5454" x2="30.118" y2="98.8394" width="0" layer="19" extent="1-1"/>
@@ -3041,43 +3204,28 @@ design rules under a new name.</description>
 <wire x1="45.572" y1="10.3098" x2="43.577" y2="9.1798" width="0" layer="19" extent="1-1"/>
 <wire x1="74.255" y1="48.133" x2="78.2221" y2="46.9801" width="0" layer="19" extent="1-1"/>
 <wire x1="120.864" y1="81.3054" x2="124.9581" y2="80.0255" width="0" layer="19" extent="1-1"/>
+<wire x1="163.319" y1="116.075" x2="159.004" y2="116.4082" width="0" layer="19" extent="1-1"/>
+<wire x1="164.694" y1="115.725" x2="163.319" y2="116.075" width="0" layer="19" extent="1-1"/>
+<wire x1="165.494" y1="115.725" x2="164.694" y2="115.725" width="0" layer="19" extent="1-1"/>
+<wire x1="162.969" y1="118.25" x2="163.319" y2="116.075" width="0" layer="19" extent="1-1"/>
 <wire x1="134.279" y1="81.3054" x2="130.0579" y2="80.0255" width="0" layer="19" extent="1-1"/>
 <wire x1="110.931" y1="12.4918" x2="115.3061" y2="11.8519" width="0" layer="19" extent="1-1"/>
 <wire x1="69.275" y1="12.4918" x2="73.6501" y2="11.8519" width="0" layer="19" extent="1-1"/>
-<wire x1="165.494" y1="115.725" x2="165.62" y2="111.252" width="0" layer="19" extent="1-1"/>
-<wire x1="164.694" y1="115.725" x2="165.494" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="163.319" y1="116.075" x2="164.694" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="162.969" y1="118.25" x2="163.319" y2="116.075" width="0" layer="19" extent="1-1"/>
-<wire x1="159.004" y1="116.4082" x2="163.319" y2="116.075" width="0" layer="19" extent="1-1"/>
-<wire x1="157.225" y1="118.364" x2="159.004" y2="116.4082" width="0" layer="19" extent="1-1"/>
-<wire x1="158.662" y1="120.904" x2="157.225" y2="118.364" width="0" layer="19" extent="1-1"/>
-<wire x1="158.662" y1="123.698" x2="158.662" y2="120.904" width="0" layer="19" extent="1-1"/>
-<wire x1="162.969" y1="123.05" x2="158.662" y2="123.698" width="0" layer="19" extent="1-1"/>
-<wire x1="163.319" y1="125.225" x2="162.969" y2="123.05" width="0" layer="19" extent="1-1"/>
-<wire x1="164.694" y1="125.575" x2="163.319" y2="125.225" width="0" layer="19" extent="1-1"/>
-<wire x1="160.504" y1="128.016" x2="163.319" y2="125.225" width="0" layer="19" extent="1-1"/>
-<wire x1="160.504" y1="131.064" x2="160.504" y2="128.016" width="0" layer="19" extent="1-1"/>
 <wire x1="81.494" y1="81.3054" x2="85.8421" y2="80.2795" width="0" layer="19" extent="1-1"/>
 <wire x1="41.489" y1="81.3054" x2="45.9641" y2="80.2795" width="0" layer="19" extent="1-1"/>
 <wire x1="27.365" y1="12.4918" x2="31.9941" y2="11.8519" width="0" layer="19" extent="1-1"/>
 <wire x1="112.308" y1="48.133" x2="107.7059" y2="46.9801" width="0" layer="19" extent="1-1"/>
-<wire x1="169.072" y1="127.508" x2="164.694" y2="125.575" width="0" layer="19" extent="1-1"/>
 <wire x1="49.673" y1="46.34" x2="44.7139" y2="46.9801" width="0" layer="19" extent="1-1"/>
 <wire x1="51.668" y1="47.47" x2="49.673" y2="46.34" width="0" layer="19" extent="1-1"/>
-<wire x1="165.608" y1="133.972" x2="160.504" y2="131.064" width="0" layer="19" extent="1-1"/>
+<wire x1="176.9014" y1="118.237" x2="178.308" y2="112.776" width="0" layer="19" extent="1-1"/>
+<wire x1="172.819" y1="117.45" x2="176.9014" y2="118.237" width="0" layer="19" extent="1-1"/>
 <wire x1="18.304" y1="82.3064" x2="12.3289" y2="80.4065" width="0" layer="19" extent="1-1"/>
 <wire x1="20.299" y1="83.4364" x2="18.304" y2="82.3064" width="0" layer="19" extent="1-1"/>
-<wire x1="172.819" y1="117.45" x2="171.704" y2="111.16" width="0" layer="19" extent="1-1"/>
-<wire x1="176.9014" y1="118.237" x2="172.819" y2="117.45" width="0" layer="19" extent="1-1"/>
-<wire x1="178.308" y1="111.286" x2="171.704" y2="111.16" width="0" layer="19" extent="1-1"/>
 <wire x1="176.368" y1="124.968" x2="176.9014" y2="118.237" width="0" layer="19" extent="1-1"/>
 <wire x1="99.674" y1="82.4204" x2="100.1014" y2="89.1794" width="0" layer="19" extent="1-1"/>
 <wire x1="97.679" y1="81.2904" x2="99.674" y2="82.4204" width="0" layer="19" extent="1-1"/>
 <wire x1="91.673" y1="115.542" x2="92.0496" y2="122.3264" width="0" layer="19" extent="1-1"/>
 <wire x1="89.678" y1="114.412" x2="91.673" y2="115.542" width="0" layer="19" extent="1-1"/>
-<wire x1="151.892" y1="123.076" x2="158.662" y2="123.698" width="0" layer="19" extent="1-1"/>
-<wire x1="146.088" y1="125.476" x2="151.892" y2="123.076" width="0" layer="19" extent="1-1"/>
-<wire x1="144.488" y1="125.476" x2="146.088" y2="125.476" width="0" layer="19" extent="1-1"/>
 <wire x1="56.113" y1="115.542" x2="55.118" y2="122.287" width="0" layer="19" extent="1-1"/>
 <wire x1="54.118" y1="114.412" x2="56.113" y2="115.542" width="0" layer="19" extent="1-1"/>
 <wire x1="60.304" y1="82.4204" x2="60.7314" y2="89.4334" width="0" layer="19" extent="1-1"/>
@@ -3086,17 +3234,20 @@ design rules under a new name.</description>
 <signal name="N$191">
 <contactref element="IC58" pad="22"/>
 <contactref element="R206" pad="2"/>
-<wire x1="160.362" y1="123.698" x2="162.969" y2="123.85" width="0" layer="19" extent="1-1"/>
+<wire x1="162.969" y1="123.85" x2="160.362" y2="123.85" width="0.254" layer="1"/>
+<wire x1="160.362" y1="123.85" x2="160.362" y2="123.698" width="0.254" layer="1"/>
 </signal>
 <signal name="N$193">
 <contactref element="IC58" pad="26"/>
 <contactref element="R205" pad="2"/>
-<wire x1="160.362" y1="120.904" x2="162.969" y2="120.65" width="0" layer="19" extent="1-1"/>
+<wire x1="162.969" y1="120.65" x2="160.362" y2="120.65" width="0.254" layer="1"/>
+<wire x1="160.362" y1="120.65" x2="160.362" y2="120.904" width="0.254" layer="1"/>
 </signal>
 <signal name="N$213">
 <contactref element="LED1" pad="A"/>
 <contactref element="R201" pad="1"/>
-<wire x1="176.11" y1="109.22" x2="178.308" y2="109.186" width="0" layer="19" extent="1-1"/>
+<wire x1="176.11" y1="109.22" x2="178.308" y2="109.22" width="0.3556" layer="1"/>
+<wire x1="178.308" y1="109.22" x2="178.308" y2="109.186" width="0.3556" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="R4" pad="2"/>
@@ -3105,23 +3256,27 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="IC58" pad="8"/>
 <contactref element="TP10" pad="TP"/>
-<wire x1="176.276" y1="119.888" x2="176.1988" y2="122.2502" width="0" layer="19" extent="1-1"/>
-<wire x1="172.819" y1="122.25" x2="176.1988" y2="122.2502" width="0" layer="19" extent="1-1"/>
+<wire x1="172.819" y1="122.25" x2="176.1988" y2="122.25" width="0.254" layer="1"/>
+<wire x1="176.1988" y1="122.25" x2="176.1988" y2="122.2502" width="0.254" layer="1"/>
+<wire x1="176.1988" y1="122.2502" x2="176.1988" y2="119.9652" width="0.254" layer="1"/>
+<wire x1="176.1988" y1="119.9652" x2="176.276" y2="119.888" width="0.254" layer="1"/>
 </signal>
 <signal name="N$178">
 <contactref element="IC58" pad="30"/>
 <contactref element="Q2" pad="1"/>
-<wire x1="161.036" y1="117.3734" x2="162.969" y2="117.45" width="0" layer="19" extent="1-1"/>
+<wire x1="162.969" y1="117.45" x2="161.036" y2="117.45" width="0.254" layer="1"/>
+<wire x1="161.036" y1="117.45" x2="161.036" y2="117.3734" width="0.254" layer="1"/>
 </signal>
 <signal name="+5V3_INH">
 <contactref element="R13" pad="1"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="159.004" y1="118.3386" x2="157.735" y2="118.364" width="0" layer="19" extent="1-1"/>
+<wire x1="159.004" y1="118.3386" x2="157.735" y2="118.3386" width="0.254" layer="1"/>
+<wire x1="157.735" y1="118.3386" x2="157.735" y2="118.364" width="0.254" layer="1"/>
 </signal>
 <signal name="N$169">
 <contactref element="L31" pad="2"/>
 <contactref element="C500" pad="1"/>
-<wire x1="142.24" y1="123.826" x2="145.288" y2="123.101" width="0" layer="19" extent="1-1"/>
+<wire x1="140.716" y1="123.826" x2="145.288" y2="123.101" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+13.8V_SW_FIL">
 <contactref element="IC58" pad="1"/>
@@ -3140,7 +3295,7 @@ design rules under a new name.</description>
 <contactref element="C482" pad="1"/>
 <contactref element="C481" pad="1"/>
 <contactref element="C500" pad="2"/>
-<polygon width="0.1016" layer="1" isolate="0.127">
+<polygon width="0.254" layer="1" isolate="0.127">
 <vertex x="144.272" y="127"/>
 <vertex x="147.828" y="127"/>
 <vertex x="148.844" y="125.984"/>
@@ -3154,7 +3309,7 @@ design rules under a new name.</description>
 <vertex x="169.672" y="128.016"/>
 <vertex x="169.672" y="125.476"/>
 <vertex x="170.815" y="125.476"/>
-<vertex x="170.815" y="124.333"/>
+<vertex x="171.323" y="124.333"/>
 <vertex x="175.768" y="124.46"/>
 <vertex x="175.768" y="129.54"/>
 <vertex x="175.26" y="130.048"/>
@@ -3168,13 +3323,30 @@ design rules under a new name.</description>
 <vertex x="149.352" y="129.032"/>
 <vertex x="144.272" y="129.032"/>
 </polygon>
-<wire x1="172.819" y1="118.25" x2="175.7014" y2="118.237" width="0" layer="19" extent="1-1"/>
-<wire x1="172.469" y1="116.075" x2="172.819" y2="118.25" width="0" layer="19" extent="1-1"/>
-<wire x1="171.094" y1="115.725" x2="172.469" y2="116.075" width="0" layer="19" extent="1-1"/>
-<wire x1="170.294" y1="115.725" x2="171.094" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="170.18" y1="112.36" x2="170.294" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="171.704" y1="112.36" x2="170.18" y2="112.36" width="0" layer="19" extent="1-1"/>
-<wire x1="175.168" y1="124.968" x2="175.7014" y2="118.237" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1016" layer="1">
+<vertex x="170.053" y="116.205"/>
+<vertex x="170.053" y="111.76"/>
+<vertex x="175.133" y="111.887"/>
+<vertex x="175.133" y="114.935"/>
+<vertex x="176.276" y="116.078"/>
+<vertex x="176.276" y="118.618"/>
+<vertex x="172.339" y="118.618"/>
+<vertex x="172.339" y="117.856"/>
+<vertex x="173.355" y="117.856"/>
+<vertex x="173.482" y="117.729"/>
+<vertex x="173.482" y="117.094"/>
+<vertex x="173.355" y="116.967"/>
+<vertex x="172.593" y="116.967"/>
+<vertex x="172.593" y="116.205"/>
+</polygon>
+<wire x1="175.7014" y1="118.237" x2="175.7014" y2="118.4306" width="0.3556" layer="1"/>
+<wire x1="175.7014" y1="118.4306" x2="174.752" y2="119.38" width="0.3556" layer="1"/>
+<via x="174.752" y="119.38" extent="1-2" drill="0.254"/>
+<wire x1="174.752" y1="119.38" x2="174.752" y2="123.444" width="0.3556" layer="2"/>
+<wire x1="174.752" y1="123.444" x2="175.26" y2="123.952" width="0.3556" layer="2"/>
+<via x="175.26" y="123.952" extent="1-2" drill="0.254"/>
+<wire x1="175.26" y1="123.952" x2="175.26" y2="124.876" width="0.3556" layer="1"/>
+<wire x1="175.26" y1="124.876" x2="175.168" y2="124.968" width="0.3556" layer="1"/>
 </signal>
 <signal name="N$196">
 <contactref element="IC58" pad="34"/>
@@ -3184,12 +3356,12 @@ design rules under a new name.</description>
 <contactref element="IC58" pad="38"/>
 <contactref element="IC58" pad="41"/>
 <contactref element="C459" pad="IN"/>
-<wire x1="167.894" y1="115.725" x2="167.894" y2="117.1" width="0" layer="19" extent="1-1"/>
-<wire x1="168.694" y1="115.725" x2="167.894" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="169.494" y1="115.725" x2="168.694" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="167.094" y1="115.725" x2="167.894" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="166.294" y1="115.725" x2="167.094" y2="115.725" width="0" layer="19" extent="1-1"/>
-<wire x1="166.37" y1="113.252" x2="166.294" y2="115.725" width="0" layer="19" extent="1-1"/>
+<polygon width="0.127" layer="1">
+<vertex x="165.989" y="117.856"/>
+<vertex x="169.672" y="117.856"/>
+<vertex x="169.672" y="112.268"/>
+<vertex x="165.989" y="112.268"/>
+</polygon>
 </signal>
 <signal name="N$199">
 <contactref element="IC58" pad="10"/>
@@ -3224,11 +3396,14 @@ design rules under a new name.</description>
 <vertex x="165.227" y="123.571"/>
 <vertex x="165.227" y="125.476"/>
 </polygon>
-<wire x1="170.294" y1="125.575" x2="172.819" y2="123.85" width="0" layer="19" extent="1-1"/>
-<wire x1="168.404" y1="121.64" x2="167.894" y2="121.875" width="0" layer="19" extent="1-1"/>
+<wire x1="172.819" y1="123.85" x2="170.18" y2="123.85" width="0.254" layer="1"/>
+<wire x1="170.18" y1="123.85" x2="170.18" y2="123.952" width="0.254" layer="1"/>
+<wire x1="170.18" y1="123.952" x2="169.204" y2="123.952" width="0.254" layer="1"/>
+<wire x1="169.204" y1="123.952" x2="169.204" y2="123.2" width="0.254" layer="1"/>
+<wire x1="168.404" y1="120.86" x2="168.404" y2="120.08" width="0" layer="19" extent="1-1"/>
+<wire x1="168.404" y1="121.64" x2="168.404" y2="120.86" width="0" layer="19" extent="1-1"/>
+<wire x1="167.894" y1="121.875" x2="168.404" y2="121.64" width="0" layer="19" extent="1-1"/>
 <wire x1="167.384" y1="121.64" x2="167.894" y2="121.875" width="0" layer="19" extent="1-1"/>
-<wire x1="168.404" y1="120.86" x2="168.404" y2="121.64" width="0" layer="19" extent="1-1"/>
-<wire x1="168.404" y1="120.08" x2="168.404" y2="120.86" width="0" layer="19" extent="1-1"/>
 <wire x1="168.404" y1="119.3" x2="168.404" y2="120.08" width="0" layer="19" extent="1-1"/>
 <wire x1="167.384" y1="120.86" x2="167.384" y2="121.64" width="0" layer="19" extent="1-1"/>
 <wire x1="167.384" y1="120.08" x2="167.384" y2="120.86" width="0" layer="19" extent="1-1"/>
@@ -3920,6 +4095,35 @@ design rules under a new name.</description>
 <contactref element="R36" pad="1"/>
 <contactref element="C102" pad="IN"/>
 <contactref element="R39" pad="1"/>
+<polygon width="0.1016" layer="1" isolate="0.254">
+<vertex x="164.592" y="110.363"/>
+<vertex x="175.26" y="110.363"/>
+<vertex x="175.26" y="107.061"/>
+<vertex x="164.592" y="107.061"/>
+</polygon>
+<via x="166.116" y="109.728" extent="1-2" drill="0.254"/>
+<via x="165.1" y="109.728" extent="1-2" drill="0.254"/>
+<via x="165.1" y="108.712" extent="1-2" drill="0.254"/>
+<via x="166.116" y="108.712" extent="1-2" drill="0.254"/>
+<via x="165.1" y="107.696" extent="1-2" drill="0.254"/>
+<via x="166.116" y="107.696" extent="1-2" drill="0.254"/>
+<via x="167.132" y="107.696" extent="1-2" drill="0.254"/>
+<via x="168.148" y="107.696" extent="1-2" drill="0.254"/>
+<via x="169.164" y="107.696" extent="1-2" drill="0.254"/>
+<via x="170.18" y="107.696" extent="1-2" drill="0.254"/>
+<via x="171.196" y="107.696" extent="1-2" drill="0.254"/>
+<via x="172.212" y="107.696" extent="1-2" drill="0.254"/>
+<via x="173.228" y="107.696" extent="1-2" drill="0.254"/>
+<via x="174.244" y="107.696" extent="1-2" drill="0.254"/>
+<via x="172.72" y="108.712" extent="1-2" drill="0.254"/>
+<via x="171.704" y="108.712" extent="1-2" drill="0.254"/>
+<via x="170.688" y="108.712" extent="1-2" drill="0.254"/>
+<via x="169.672" y="108.712" extent="1-2" drill="0.254"/>
+<via x="169.164" y="109.728" extent="1-2" drill="0.254"/>
+<via x="170.18" y="109.728" extent="1-2" drill="0.254"/>
+<via x="171.196" y="109.728" extent="1-2" drill="0.254"/>
+<via x="172.212" y="109.728" extent="1-2" drill="0.254"/>
+<via x="173.228" y="109.728" extent="1-2" drill="0.254"/>
 <wire x1="94.1696" y1="135.3058" x2="106.7862" y2="132.1308" width="0" layer="19" extent="1-1"/>
 <wire x1="71.277" y1="131.0894" x2="94.1696" y2="135.3058" width="0" layer="19" extent="1-1"/>
 <wire x1="58.7874" y1="134.3406" x2="71.277" y2="131.0894" width="0" layer="19" extent="1-1"/>
@@ -3943,9 +4147,8 @@ design rules under a new name.</description>
 <wire x1="103.4842" y1="27.7368" x2="89.8008" y2="31.0642" width="0" layer="19" extent="1-1"/>
 <wire x1="130.3138" y1="31.8262" x2="103.4842" y2="27.7368" width="0" layer="19" extent="1-1"/>
 <wire x1="144.556" y1="28.6004" x2="130.3138" y2="31.8262" width="0" layer="19" extent="1-1"/>
-<wire x1="166.37" y1="109.252" x2="151.8966" y2="64.4398" width="0" layer="19" extent="1-1"/>
-<wire x1="174.41" y1="109.22" x2="166.37" y2="109.252" width="0" layer="19" extent="1-1"/>
-<wire x1="162.969" y1="119.85" x2="166.37" y2="109.252" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="107.696" x2="151.8966" y2="64.4398" width="0" layer="19" extent="1-1"/>
+<wire x1="162.969" y1="119.85" x2="165.1" y2="109.728" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LNA_4_OUT">
 <contactref element="L10" pad="1"/>
@@ -4043,14 +4246,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$11">
 <via x="57.277" y="54.737" extent="1-2" drill="0.254"/>
-</signal>
-<signal name="PWR">
-<polygon width="0.4064" layer="15">
-<vertex x="0" y="0"/>
-<vertex x="0" y="137.668"/>
-<vertex x="182.88" y="137.668"/>
-<vertex x="182.88" y="0"/>
-</polygon>
 </signal>
 <signal name="N$12">
 <contactref element="R2" pad="2"/>
@@ -5049,76 +5244,13 @@ design rules under a new name.</description>
 <wire x1="131.1864" y1="27.0464" x2="130.683" y2="26.543" width="0.254" layer="1"/>
 <wire x1="125.857" y1="17.0828" x2="127.635" y2="17.0828" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND1" class="1" airwireshidden="yes">
-<polygon width="0.4064" layer="1">
-<vertex x="5.3848" y="108.5596"/>
-<vertex x="141.859" y="108.8136"/>
-<vertex x="141.859" y="105.3846"/>
-<vertex x="3.048" y="105.7656"/>
-<vertex x="3.048" y="108.5596"/>
-</polygon>
-<via x="5.334" y="107.061" extent="1-2" drill="0.254"/>
-<via x="7.874" y="107.061" extent="1-2" drill="0.254"/>
-<via x="10.414" y="107.061" extent="1-2" drill="0.254"/>
-<via x="12.954" y="107.061" extent="1-2" drill="0.254"/>
-<via x="15.494" y="107.061" extent="1-2" drill="0.254"/>
-<via x="18.034" y="107.061" extent="1-2" drill="0.254"/>
-<via x="20.574" y="107.061" extent="1-2" drill="0.254"/>
-<via x="23.114" y="107.061" extent="1-2" drill="0.254"/>
-<via x="25.654" y="107.061" extent="1-2" drill="0.254"/>
-<via x="28.194" y="107.061" extent="1-2" drill="0.254"/>
-<via x="30.734" y="107.061" extent="1-2" drill="0.254"/>
-<via x="33.274" y="107.061" extent="1-2" drill="0.254"/>
-<via x="35.814" y="107.061" extent="1-2" drill="0.254"/>
-<via x="38.354" y="107.061" extent="1-2" drill="0.254"/>
-<via x="41.529" y="107.061" extent="1-2" drill="0.254"/>
-<via x="44.069" y="107.061" extent="1-2" drill="0.254"/>
-<via x="46.609" y="107.061" extent="1-2" drill="0.254"/>
-<via x="49.149" y="107.061" extent="1-2" drill="0.254"/>
-<via x="51.689" y="107.061" extent="1-2" drill="0.254"/>
-<via x="54.229" y="107.061" extent="1-2" drill="0.254"/>
-<via x="56.769" y="107.061" extent="1-2" drill="0.254"/>
-<via x="59.309" y="107.061" extent="1-2" drill="0.254"/>
-<via x="61.849" y="107.061" extent="1-2" drill="0.254"/>
-<via x="64.389" y="107.061" extent="1-2" drill="0.254"/>
-<via x="66.929" y="107.061" extent="1-2" drill="0.254"/>
-<via x="69.469" y="107.061" extent="1-2" drill="0.254"/>
-<via x="72.009" y="107.061" extent="1-2" drill="0.254"/>
-<via x="74.549" y="107.061" extent="1-2" drill="0.254"/>
-<via x="77.089" y="107.061" extent="1-2" drill="0.254"/>
-<via x="79.629" y="107.061" extent="1-2" drill="0.254"/>
-<via x="82.169" y="107.061" extent="1-2" drill="0.254"/>
-<via x="84.709" y="107.061" extent="1-2" drill="0.254"/>
-<via x="87.249" y="107.061" extent="1-2" drill="0.254"/>
-<via x="89.789" y="107.061" extent="1-2" drill="0.254"/>
-<via x="92.329" y="107.061" extent="1-2" drill="0.254"/>
-<via x="94.869" y="107.061" extent="1-2" drill="0.254"/>
-<via x="97.409" y="107.061" extent="1-2" drill="0.254"/>
-<via x="99.949" y="107.061" extent="1-2" drill="0.254"/>
-<via x="102.489" y="107.061" extent="1-2" drill="0.254"/>
-<via x="105.029" y="107.061" extent="1-2" drill="0.254"/>
-<via x="107.569" y="107.061" extent="1-2" drill="0.254"/>
-<via x="110.109" y="107.061" extent="1-2" drill="0.254"/>
-<via x="112.649" y="107.061" extent="1-2" drill="0.254"/>
-<via x="115.189" y="107.061" extent="1-2" drill="0.254"/>
-<via x="117.729" y="107.061" extent="1-2" drill="0.254"/>
-<via x="120.269" y="107.061" extent="1-2" drill="0.254"/>
-<via x="122.809" y="107.061" extent="1-2" drill="0.254"/>
-<via x="125.349" y="107.061" extent="1-2" drill="0.254"/>
-<via x="127.889" y="107.061" extent="1-2" drill="0.254"/>
-<via x="130.429" y="107.061" extent="1-2" drill="0.254"/>
-<via x="132.969" y="107.061" extent="1-2" drill="0.254"/>
-<via x="135.509" y="107.061" extent="1-2" drill="0.254"/>
-<via x="138.049" y="107.061" extent="1-2" drill="0.254"/>
-<via x="140.589" y="107.061" extent="1-2" drill="0.254"/>
-</signal>
 <signal name="GND2" class="1" airwireshidden="yes">
 <polygon width="0.4064" layer="1">
-<vertex x="5.3848" y="75.9714"/>
+<vertex x="5.461" y="76.1238"/>
 <vertex x="178.435" y="76.2254"/>
 <vertex x="178.435" y="72.7964"/>
-<vertex x="3.048" y="73.1774"/>
-<vertex x="3.048" y="75.9714"/>
+<vertex x="3.048" y="72.9488"/>
+<vertex x="3.048" y="76.1238"/>
 </polygon>
 <via x="5.334" y="74.4728" extent="1-2" drill="0.254"/>
 <via x="7.874" y="74.4728" extent="1-2" drill="0.254"/>
@@ -5188,6 +5320,14 @@ design rules under a new name.</description>
 <via x="171.069" y="74.4728" extent="1-2" drill="0.254"/>
 <via x="173.609" y="74.4728" extent="1-2" drill="0.254"/>
 <via x="176.149" y="74.4728" extent="1-2" drill="0.254"/>
+</signal>
+<signal name="PWR">
+<polygon width="0.4064" layer="15">
+<vertex x="0" y="0"/>
+<vertex x="0" y="137.668"/>
+<vertex x="182.88" y="137.668"/>
+<vertex x="182.88" y="0"/>
+</polygon>
 </signal>
 </signals>
 <errors>
