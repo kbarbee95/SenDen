@@ -16471,7 +16471,7 @@ TO FILTERS</text>
 <text x="139.192" y="231.14" size="1.778" layer="97" rot="MR0">+5V</text>
 <text x="226.06" y="270.51" size="1.778" layer="106">REV B HAD PCHAN FET HERE
 GROUND GATE</text>
-<text x="26.162" y="124.46" size="1.778" layer="97" rot="MR0">+5V</text>
+<text x="56.642" y="124.46" size="1.778" layer="97" rot="MR0">+5V</text>
 <text x="113.03" y="163.83" size="1.778" layer="106">REV B HAD PCHAN FET HERE
 GROUND GATE</text>
 <text x="264.922" y="124.46" size="1.778" layer="97" rot="MR0">+5V</text>
@@ -17287,39 +17287,14 @@ GROUND GATE</text>
 <pinref part="X32" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PRE_PWR" class="0">
+<net name="PRE_PWR_10" class="0">
 <segment>
 <pinref part="LDO_10" gate="G$1" pin="EN"/>
 <wire x1="160.02" y1="260.35" x2="158.75" y2="260.35" width="0.1524" layer="91"/>
 <wire x1="158.75" y1="260.35" x2="158.75" y2="254" width="0.1524" layer="91"/>
-<label x="142.24" y="254" size="1.27" layer="91" rot="R180" xref="yes"/>
 <wire x1="158.75" y1="254" x2="143.51" y2="254" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="143.51" y1="254" x2="142.24" y2="254" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="256.54" x2="143.51" y2="254" width="0.1524" layer="91"/>
-<junction x="143.51" y="254"/>
-</segment>
-<segment>
-<pinref part="LDO_11" gate="G$1" pin="EN"/>
-<wire x1="46.99" y1="153.67" x2="45.72" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="153.67" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<label x="29.21" y="147.32" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="45.72" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="147.32" x2="29.21" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="149.86" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<junction x="30.48" y="147.32"/>
-</segment>
-<segment>
-<pinref part="LDO_12" gate="G$1" pin="EN"/>
-<wire x1="215.9" y1="153.67" x2="214.63" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="214.63" y1="153.67" x2="214.63" y2="147.32" width="0.1524" layer="91"/>
-<label x="198.12" y="147.32" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="214.63" y1="147.32" x2="199.39" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="199.39" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="149.86" x2="199.39" y2="147.32" width="0.1524" layer="91"/>
-<junction x="199.39" y="147.32"/>
 </segment>
 </net>
 <net name="SAW_14_OUT" class="0">
@@ -17510,7 +17485,7 @@ GROUND GATE</text>
 <segment>
 <pinref part="TP_11" gate="G$1" pin="TP"/>
 <wire x1="105.41" y1="128.016" x2="110.49" y2="128.016" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="123.19" x2="110.49" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="123.19" x2="110.49" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="110.49" y1="123.19" x2="110.49" y2="128.016" width="0.1524" layer="91"/>
 <pinref part="C99" gate="G$1" pin="OUT"/>
 <wire x1="99.06" y1="161.29" x2="110.49" y2="161.29" width="0.1524" layer="91"/>
@@ -17534,8 +17509,8 @@ GROUND GATE</text>
 <wire x1="60.96" y1="109.22" x2="74.93" y2="109.22" width="0.1524" layer="91"/>
 <junction x="60.96" y="109.22"/>
 <junction x="74.93" y="109.22"/>
-<wire x1="60.96" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="109.22" x2="17.78" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="109.22" x2="53.34" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -17604,6 +17579,26 @@ GROUND GATE</text>
 <pinref part="L24" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="109.22" x2="259.08" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="123.19" x2="279.4" y2="123.19" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_12" class="0">
+<segment>
+<pinref part="LDO_12" gate="G$1" pin="EN"/>
+<wire x1="215.9" y1="153.67" x2="214.63" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="214.63" y1="153.67" x2="214.63" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="214.63" y1="147.32" x2="199.39" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="199.39" y1="149.86" x2="199.39" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_11" class="0">
+<segment>
+<pinref part="LDO_11" gate="G$1" pin="EN"/>
+<wire x1="46.99" y1="153.67" x2="45.72" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="153.67" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="149.86" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -18433,41 +18428,6 @@ GROUND GATE</text>
 <wire x1="24.13" y1="44.45" x2="11.43" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PRE_PWR" class="0">
-<segment>
-<pinref part="LDO_1" gate="G$1" pin="EN"/>
-<wire x1="114.3" y1="227.33" x2="113.03" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="227.33" x2="113.03" y2="220.98" width="0.1524" layer="91"/>
-<label x="96.52" y="220.98" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="113.03" y1="220.98" x2="97.79" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="97.79" y1="220.98" x2="96.52" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="223.52" x2="97.79" y2="220.98" width="0.1524" layer="91"/>
-<junction x="97.79" y="220.98"/>
-</segment>
-<segment>
-<pinref part="LDO_2" gate="G$1" pin="EN"/>
-<wire x1="330.2" y1="255.27" x2="328.93" y2="255.27" width="0.1524" layer="91"/>
-<wire x1="328.93" y1="255.27" x2="328.93" y2="248.92" width="0.1524" layer="91"/>
-<label x="312.42" y="248.92" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="328.93" y1="248.92" x2="313.69" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="313.69" y1="248.92" x2="312.42" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="313.69" y1="251.46" x2="313.69" y2="248.92" width="0.1524" layer="91"/>
-<junction x="313.69" y="248.92"/>
-</segment>
-<segment>
-<pinref part="LDO_3" gate="G$1" pin="EN"/>
-<wire x1="210.82" y1="118.11" x2="209.55" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="209.55" y1="118.11" x2="209.55" y2="111.76" width="0.1524" layer="91"/>
-<label x="193.04" y="111.76" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="209.55" y1="111.76" x2="194.31" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="194.31" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="114.3" x2="194.31" y2="111.76" width="0.1524" layer="91"/>
-<junction x="194.31" y="111.76"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -18697,6 +18657,36 @@ GROUND GATE</text>
 <junction x="227.33" y="6.35"/>
 <pinref part="L7" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="6.35" x2="227.33" y2="6.35" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_1" class="0">
+<segment>
+<pinref part="LDO_1" gate="G$1" pin="EN"/>
+<wire x1="114.3" y1="227.33" x2="113.03" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="227.33" x2="113.03" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="220.98" x2="97.79" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="97.79" y1="223.52" x2="97.79" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_2" class="0">
+<segment>
+<pinref part="LDO_2" gate="G$1" pin="EN"/>
+<wire x1="330.2" y1="255.27" x2="328.93" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="328.93" y1="255.27" x2="328.93" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="328.93" y1="248.92" x2="313.69" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="313.69" y1="251.46" x2="313.69" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_3" class="0">
+<segment>
+<pinref part="LDO_3" gate="G$1" pin="EN"/>
+<wire x1="210.82" y1="118.11" x2="209.55" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="118.11" x2="209.55" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="111.76" x2="194.31" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="194.31" y1="114.3" x2="194.31" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -19424,41 +19414,6 @@ GROUND GATE</text>
 <junction x="314.96" y="172.72"/>
 </segment>
 </net>
-<net name="PRE_PWR" class="0">
-<segment>
-<pinref part="LDO_4" gate="G$1" pin="EN"/>
-<wire x1="82.55" y1="256.54" x2="81.28" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="256.54" x2="81.28" y2="250.19" width="0.1524" layer="91"/>
-<label x="64.77" y="250.19" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="81.28" y1="250.19" x2="66.04" y2="250.19" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="250.19" x2="64.77" y2="250.19" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="252.73" x2="66.04" y2="250.19" width="0.1524" layer="91"/>
-<junction x="66.04" y="250.19"/>
-</segment>
-<segment>
-<pinref part="LDO_5" gate="G$1" pin="EN"/>
-<wire x1="233.68" y1="262.89" x2="232.41" y2="262.89" width="0.1524" layer="91"/>
-<wire x1="232.41" y1="262.89" x2="232.41" y2="256.54" width="0.1524" layer="91"/>
-<label x="215.9" y="256.54" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="232.41" y1="256.54" x2="217.17" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="217.17" y1="256.54" x2="215.9" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="217.17" y1="259.08" x2="217.17" y2="256.54" width="0.1524" layer="91"/>
-<junction x="217.17" y="256.54"/>
-</segment>
-<segment>
-<pinref part="LDO_6" gate="G$1" pin="EN"/>
-<wire x1="205.74" y1="77.47" x2="204.47" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="77.47" x2="204.47" y2="71.12" width="0.1524" layer="91"/>
-<label x="187.96" y="71.12" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="204.47" y1="71.12" x2="189.23" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="189.23" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="73.66" x2="189.23" y2="71.12" width="0.1524" layer="91"/>
-<junction x="189.23" y="71.12"/>
-</segment>
-</net>
 <net name="+5V3" class="0">
 <segment>
 <pinref part="C68" gate="G$1" pin="IN"/>
@@ -19693,6 +19648,36 @@ GROUND GATE</text>
 <wire x1="350.52" y1="78.74" x2="350.52" y2="41.91" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="41.91" x2="176.53" y2="41.91" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="41.91" x2="176.53" y2="46.99" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_4" class="0">
+<segment>
+<wire x1="81.28" y1="250.19" x2="66.04" y2="250.19" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="252.73" x2="66.04" y2="250.19" width="0.1524" layer="91"/>
+<pinref part="LDO_4" gate="G$1" pin="EN"/>
+<wire x1="82.55" y1="256.54" x2="81.28" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="250.19" x2="81.28" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_5" class="0">
+<segment>
+<pinref part="LDO_5" gate="G$1" pin="EN"/>
+<wire x1="233.68" y1="262.89" x2="232.41" y2="262.89" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="262.89" x2="232.41" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="256.54" x2="217.17" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="217.17" y1="259.08" x2="217.17" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_6" class="0">
+<segment>
+<pinref part="LDO_6" gate="G$1" pin="EN"/>
+<wire x1="205.74" y1="77.47" x2="204.47" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="77.47" x2="204.47" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="71.12" x2="189.23" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="189.23" y1="73.66" x2="189.23" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -20365,41 +20350,6 @@ GROUND GATE</text>
 <junction x="99.06" y="167.64"/>
 </segment>
 </net>
-<net name="PRE_PWR" class="0">
-<segment>
-<pinref part="LDO_7" gate="G$1" pin="EN"/>
-<wire x1="63.5" y1="261.62" x2="62.23" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="261.62" x2="62.23" y2="255.27" width="0.1524" layer="91"/>
-<label x="45.72" y="255.27" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="62.23" y1="255.27" x2="46.99" y2="255.27" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="46.99" y1="255.27" x2="45.72" y2="255.27" width="0.1524" layer="91"/>
-<wire x1="46.99" y1="257.81" x2="46.99" y2="255.27" width="0.1524" layer="91"/>
-<junction x="46.99" y="255.27"/>
-</segment>
-<segment>
-<pinref part="LDO_8" gate="G$1" pin="EN"/>
-<wire x1="236.22" y1="261.62" x2="234.95" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="261.62" x2="234.95" y2="255.27" width="0.1524" layer="91"/>
-<label x="218.44" y="255.27" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="234.95" y1="255.27" x2="219.71" y2="255.27" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="219.71" y1="255.27" x2="218.44" y2="255.27" width="0.1524" layer="91"/>
-<wire x1="219.71" y1="257.81" x2="219.71" y2="255.27" width="0.1524" layer="91"/>
-<junction x="219.71" y="255.27"/>
-</segment>
-<segment>
-<pinref part="LDO_9" gate="G$1" pin="EN"/>
-<wire x1="200.66" y1="64.77" x2="199.39" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="64.77" x2="199.39" y2="58.42" width="0.1524" layer="91"/>
-<label x="182.88" y="58.42" size="1.27" layer="91" rot="R180" xref="yes"/>
-<wire x1="199.39" y1="58.42" x2="184.15" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="184.15" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="60.96" x2="184.15" y2="58.42" width="0.1524" layer="91"/>
-<junction x="184.15" y="58.42"/>
-</segment>
-</net>
 <net name="+5V3" class="0">
 <segment>
 <pinref part="C82" gate="G$1" pin="IN"/>
@@ -20635,6 +20585,36 @@ GROUND GATE</text>
 <wire x1="269.24" y1="38.1" x2="269.24" y2="24.13" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="24.13" x2="171.45" y2="24.13" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="24.13" x2="171.45" y2="34.29" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_7" class="0">
+<segment>
+<pinref part="LDO_7" gate="G$1" pin="EN"/>
+<wire x1="63.5" y1="261.62" x2="62.23" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="261.62" x2="62.23" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="255.27" x2="46.99" y2="255.27" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="46.99" y1="257.81" x2="46.99" y2="255.27" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_8" class="0">
+<segment>
+<pinref part="LDO_8" gate="G$1" pin="EN"/>
+<wire x1="236.22" y1="261.62" x2="234.95" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="261.62" x2="234.95" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="255.27" x2="219.71" y2="255.27" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="219.71" y1="257.81" x2="219.71" y2="255.27" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRE_PWR_9" class="0">
+<segment>
+<pinref part="LDO_9" gate="G$1" pin="EN"/>
+<wire x1="200.66" y1="64.77" x2="199.39" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="64.77" x2="199.39" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="58.42" x2="184.15" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="184.15" y1="60.96" x2="184.15" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
