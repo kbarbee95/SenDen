@@ -20929,12 +20929,6 @@ GROUND GATE</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,176.53,190.5,+13.8V_TPS,,,,,"/>
-<approved hash="106,1,172.72,210.82,+13.8V_TPS,,,,,"/>
-<approved hash="106,1,201.93,137.16,N$199,,,,,"/>
-<approved hash="106,1,162.56,179.07,VDD,,,,,"/>
-<approved hash="106,1,162.56,180.34,VDD,,,,,"/>
-<approved hash="113,1,257.81,100.626,C459,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
