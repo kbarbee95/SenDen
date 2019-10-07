@@ -14763,87 +14763,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zetex">
-<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
-http://www.zetex.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT-23">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
-<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
-<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
-<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
-<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="N_MOSFET">
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="3.048" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.635"/>
-<vertex x="-0.508" y="-0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="0.762"/>
-<vertex x="2.032" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NMOSSOT23" prefix="T" uservalue="yes">
-<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23">
-<connects>
-<connect gate="A" pin="D" pad="1"/>
-<connect gate="A" pin="G" pad="3"/>
-<connect gate="A" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -15701,16 +15620,13 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R201" library="rcl" deviceset="R-US_" device="R0603" value="560"/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
 <part name="TP10" library="testpad" deviceset="TPSQ" device="B1,27" value="TPSQB1,27"/>
-<part name="V121" library="supply2" deviceset="GND" device=""/>
 <part name="L31" library="wuerth-elektronik" deviceset="WE-CBF" device="_1206" value="BLM31PG121SN1L">
 <attribute name="INDUCTANCE" value="32u"/>
 </part>
 <part name="V152" library="supply2" deviceset="GND" device=""/>
 <part name="V153" library="supply2" deviceset="GND" device=""/>
 <part name="C500" library="NewSDR" deviceset="NFM41P*" device="" technology="C155B1E3"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0201" value="100k"/>
 <part name="C459" library="DEEP EDDY" deviceset="NFM31PC276B0J3L" device=""/>
-<part name="Q2" library="zetex" deviceset="NMOSSOT23" device="" value="FDV303N"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_B_L" device=""/>
@@ -16128,6 +16044,9 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="X33" library="con-coax" deviceset="BU-SMA-V" device="" value="0733660061"/>
 <part name="V24" library="supply2" deviceset="GND" device=""/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="14k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="68.1k"/>
+<part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16264,9 +16183,6 @@ out of the 160m frequency range</text>
 <instance part="TP10" gate="G$1" x="151.13" y="170.18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="148.59" y="174.625" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="V121" gate="GND" x="275.59" y="158.75" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="277.495" y="155.575" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="L31" gate="G$1" x="181.61" y="187.96" smashed="yes">
 <attribute name="INDUCTANCE" x="181.61" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="170.18" y="184.15" size="1.778" layer="96"/>
@@ -16282,17 +16198,9 @@ out of the 160m frequency range</text>
 <attribute name="NAME" x="196.85" y="203.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="193.04" y="200.66" size="1.27" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="261.62" y="156.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="260.1214" y="152.4" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="264.922" y="152.4" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C459" gate="G$1" x="257.81" y="102.87" smashed="yes">
 <attribute name="NAME" x="252.73" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="110.49" size="1.778" layer="96"/>
-</instance>
-<instance part="Q2" gate="A" x="237.49" y="154.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="237.49" y="157.48" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="234.95" y="157.48" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -16311,6 +16219,17 @@ out of the 160m frequency range</text>
 </instance>
 <instance part="V24" gate="GND" x="313.69" y="177.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="316.865" y="175.895" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="234.95" y="120.65" smashed="yes" rot="R270">
+<attribute name="NAME" x="236.4486" y="124.46" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="231.648" y="124.46" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="G$1" x="234.95" y="135.89" smashed="yes" rot="R270">
+<attribute name="NAME" x="236.4486" y="139.7" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="231.648" y="139.7" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY12" gate="GND" x="234.95" y="113.03" smashed="yes">
+<attribute name="VALUE" x="233.045" y="109.855" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16382,18 +16301,6 @@ out of the 160m frequency range</text>
 <pinref part="V2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="V121" gate="GND" pin="GND"/>
-<wire x1="275.59" y1="161.29" x2="275.59" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="275.59" y1="165.1" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="165.1" x2="248.92" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="165.1" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="154.94" x2="242.57" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="161.29" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
-<junction x="261.62" y="165.1"/>
-<pinref part="Q2" gate="A" pin="S"/>
-</segment>
-<segment>
 <pinref part="V152" gate="GND" pin="GND"/>
 <pinref part="C500" gate="G$1" pin="GND@1"/>
 </segment>
@@ -16438,6 +16345,10 @@ out of the 160m frequency range</text>
 <pinref part="X33" gate="G$1" pin="GND"/>
 <pinref part="V24" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$191" class="0">
 <segment>
@@ -16472,25 +16383,6 @@ out of the 160m frequency range</text>
 <pinref part="TP10" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="N$178" class="0">
-<segment>
-<pinref part="IC58" gate="G$1" pin="INH/UVLO"/>
-<wire x1="201.93" y1="154.94" x2="232.41" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="D"/>
-</segment>
-</net>
-<net name="+5V3_INH" class="0">
-<segment>
-<wire x1="240.03" y1="149.86" x2="240.03" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="240.03" y1="148.59" x2="261.62" y2="148.59" width="0.1524" layer="91"/>
-<label x="265.43" y="148.59" size="1.27" layer="91" xref="yes"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="148.59" x2="265.43" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="151.13" x2="261.62" y2="148.59" width="0.1524" layer="91"/>
-<junction x="261.62" y="148.59"/>
-<pinref part="Q2" gate="A" pin="G"/>
-</segment>
-</net>
 <net name="N$169" class="0">
 <segment>
 <pinref part="L31" gate="G$1" pin="2"/>
@@ -16512,9 +16404,10 @@ out of the 160m frequency range</text>
 <wire x1="224.79" y1="190.5" x2="237.49" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="190.5" x2="237.49" y2="187.96" width="0.1524" layer="91"/>
 <junction x="237.49" y="190.5"/>
-<wire x1="209.55" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="144.78" x2="234.95" y2="144.78" width="0.1524" layer="91"/>
 <junction x="209.55" y="144.78"/>
 <pinref part="C489" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C490" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="144.78" x2="252.73" y2="144.78" width="0.1524" layer="91"/>
@@ -16545,6 +16438,9 @@ out of the 160m frequency range</text>
 <junction x="224.79" y="190.5"/>
 <pinref part="C500" gate="G$1" pin="OUT"/>
 <wire x1="203.2" y1="190.5" x2="209.55" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="140.97" x2="234.95" y2="144.78" width="0.1524" layer="91"/>
+<junction x="234.95" y="144.78"/>
 </segment>
 </net>
 <net name="N$196" class="0">
@@ -16627,6 +16523,19 @@ out of the 160m frequency range</text>
 <wire x1="363.22" y1="162.56" x2="363.22" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="165.1" x2="368.3" y2="165.1" width="0.1524" layer="91"/>
 <label x="368.3" y="165.1" size="1.778" layer="91" xref="yes"/>
+</segment>
+</net>
+<net name="N$178" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="130.81" x2="234.95" y2="128.27" width="0.1524" layer="91"/>
+<pinref part="IC58" gate="G$1" pin="INH/UVLO"/>
+<wire x1="234.95" y1="128.27" x2="234.95" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="154.94" x2="229.616" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="229.616" y1="154.94" x2="229.616" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="229.616" y1="128.27" x2="234.95" y2="128.27" width="0.1524" layer="91"/>
+<junction x="234.95" y="128.27"/>
 </segment>
 </net>
 </nets>
@@ -20715,7 +20624,7 @@ GROUND GATE</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,201.93,137.16,N$199,,,,,"/>
+<approved hash="106,1,201.93,137.16,PH,,,,,"/>
 <approved hash="113,1,257.81,100.626,C459,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
