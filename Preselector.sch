@@ -19716,14 +19716,8 @@ TO FILTERS</text>
 TO FILTERS</text>
 <text x="363.22" y="27.94" size="2.54" layer="94">70cm Band</text>
 <text x="42.672" y="232.41" size="1.778" layer="97" rot="MR0">+5V</text>
-<text x="129.54" y="271.78" size="1.778" layer="106">REV B HAD PCHAN FET HERE
-GROUND GATE</text>
 <text x="215.392" y="232.41" size="1.778" layer="97" rot="MR0">+5V</text>
-<text x="302.26" y="271.78" size="1.778" layer="106">REV B HAD PCHAN FET HERE
-GROUND GATE</text>
 <text x="179.832" y="35.56" size="1.778" layer="97" rot="MR0">+5V</text>
-<text x="266.7" y="74.93" size="1.778" layer="106">REV B HAD PCHAN FET HERE
-GROUND GATE</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
