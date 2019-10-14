@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="12" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="2" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="5" fill="9" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="11" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="14" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -15588,7 +15588,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="IC58" library="DEEP EDDY" deviceset="LMZ31707" device="RVQ"/>
 <part name="R206" library="rcl" deviceset="R-US_" device="R0603" value="53.6k"/>
 <part name="V131" library="supply2" deviceset="GND" device=""/>
-<part name="C489" library="rcl" deviceset="C-US" device="C0402K" value=".1u 50V"/>
+<part name="C489" library="rcl" deviceset="C-US" device="C0603K" value=".1u 50V"/>
 <part name="SUPPLY391" library="supply2" deviceset="GND" device=""/>
 <part name="V133" library="supply2" deviceset="GND" device=""/>
 <part name="V134" library="supply2" deviceset="GND" device=""/>
@@ -15597,13 +15597,13 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="V138" library="supply2" deviceset="GND" device=""/>
 <part name="+5V3-1" library="NewSDRS" deviceset="+5V3" device=""/>
 <part name="+5V4" library="NewSDRS" deviceset="+5V3" device=""/>
-<part name="C490" library="rcl" deviceset="C-US" device="C0402K" value=".1u 50V"/>
+<part name="C490" library="rcl" deviceset="C-US" device="C0603K" value=".1u 50V"/>
 <part name="SUPPLY409" library="supply2" deviceset="GND" device=""/>
-<part name="C491" library="rcl" deviceset="C-US" device="C0402K" value=".1u 50V"/>
+<part name="C491" library="rcl" deviceset="C-US" device="C0603K" value=".1u 50V"/>
 <part name="SUPPLY411" library="supply2" deviceset="GND" device=""/>
-<part name="C492" library="rcl" deviceset="C-US" device="C0402K" value=".1u 50V"/>
+<part name="C492" library="rcl" deviceset="C-US" device="C0603K" value=".1u 50V"/>
 <part name="SUPPLY412" library="supply2" deviceset="GND" device=""/>
-<part name="C493" library="rcl" deviceset="C-US" device="C0402K" value=".1u 50V"/>
+<part name="C493" library="rcl" deviceset="C-US" device="C0603K" value=".1u 50V"/>
 <part name="SUPPLY413" library="supply2" deviceset="GND" device=""/>
 <part name="V150" library="supply2" deviceset="GND" device=""/>
 <part name="C483" library="rcl" deviceset="CPOL-US" device="D" value="EEE-FK1V470P">
@@ -15876,8 +15876,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V55" library="supply2" deviceset="GND" device=""/>
 <part name="V56" library="supply2" deviceset="GND" device=""/>
-<part name="C53" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C54" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C53" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C54" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_1" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C55" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V57" library="supply2" deviceset="GND" device=""/>
@@ -15890,8 +15890,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V60" library="supply2" deviceset="GND" device=""/>
 <part name="V61" library="supply2" deviceset="GND" device=""/>
-<part name="C58" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C59" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C58" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C59" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_2" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C60" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V62" library="supply2" deviceset="GND" device=""/>
@@ -15904,8 +15904,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V65" library="supply2" deviceset="GND" device=""/>
 <part name="V66" library="supply2" deviceset="GND" device=""/>
-<part name="C62" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C63" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C62" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C63" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_3" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C64" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V67" library="supply2" deviceset="GND" device=""/>
@@ -15918,8 +15918,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V70" library="supply2" deviceset="GND" device=""/>
 <part name="V71" library="supply2" deviceset="GND" device=""/>
-<part name="C66" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C67" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C66" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C67" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_4" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C68" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V72" library="supply2" deviceset="GND" device=""/>
@@ -15932,8 +15932,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V75" library="supply2" deviceset="GND" device=""/>
 <part name="V76" library="supply2" deviceset="GND" device=""/>
-<part name="C70" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C71" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C70" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C71" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_5" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C74" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V77" library="supply2" deviceset="GND" device=""/>
@@ -15946,8 +15946,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V80" library="supply2" deviceset="GND" device=""/>
 <part name="V81" library="supply2" deviceset="GND" device=""/>
-<part name="C76" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C77" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C76" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C77" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_6" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C78" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V82" library="supply2" deviceset="GND" device=""/>
@@ -15960,8 +15960,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R26" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V85" library="supply2" deviceset="GND" device=""/>
 <part name="V86" library="supply2" deviceset="GND" device=""/>
-<part name="C80" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C81" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C80" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C81" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_7" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C82" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V87" library="supply2" deviceset="GND" device=""/>
@@ -15974,8 +15974,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R29" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V90" library="supply2" deviceset="GND" device=""/>
 <part name="V91" library="supply2" deviceset="GND" device=""/>
-<part name="C84" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C85" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C84" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C85" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_8" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C86" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V92" library="supply2" deviceset="GND" device=""/>
@@ -15988,8 +15988,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V95" library="supply2" deviceset="GND" device=""/>
 <part name="V96" library="supply2" deviceset="GND" device=""/>
-<part name="C88" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C89" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C88" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C89" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_9" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C90" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V97" library="supply2" deviceset="GND" device=""/>
@@ -16002,8 +16002,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V100" library="supply2" deviceset="GND" device=""/>
 <part name="V101" library="supply2" deviceset="GND" device=""/>
-<part name="C92" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C93" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C92" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C93" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_10" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C94" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V102" library="supply2" deviceset="GND" device=""/>
@@ -16016,8 +16016,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R38" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V105" library="supply2" deviceset="GND" device=""/>
 <part name="V106" library="supply2" deviceset="GND" device=""/>
-<part name="C96" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C97" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C96" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C97" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_11" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C98" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V107" library="supply2" deviceset="GND" device=""/>
@@ -16030,8 +16030,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="R41" library="rcl" deviceset="R-US_" device="R0603" value="10.0k"/>
 <part name="V110" library="supply2" deviceset="GND" device=""/>
 <part name="V111" library="supply2" deviceset="GND" device=""/>
-<part name="C100" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
-<part name="C101" library="rcl" deviceset="C-US" device="C0402K" value="470n"/>
+<part name="C100" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
+<part name="C101" library="rcl" deviceset="C-US" device="C0603K" value="470n"/>
 <part name="TP_12" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="C102" library="DEEP EDDY" deviceset="NFM21PS" device="" value="NFM21PS106B0J3D"/>
 <part name="V112" library="supply2" deviceset="GND" device=""/>
