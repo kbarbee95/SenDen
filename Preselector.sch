@@ -14434,20 +14434,42 @@ Source: www.kingbright.com</description>
 </package>
 <package name="DRB">
 <smd name="PAD" x="0" y="0" dx="1.75" dy="1.5" layer="1" cream="no"/>
-<smd name="1" x="-0.975" y="-1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="4" x="0.975" y="-1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="5" x="0.975" y="1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="8" x="-0.975" y="1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="2" x="-0.325" y="-1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="3" x="0.325" y="-1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="6" x="0.325" y="1.465" dx="0.35" dy="0.825" layer="1"/>
-<smd name="7" x="-0.325" y="1.465" dx="0.35" dy="0.825" layer="1"/>
+<smd name="1" x="-0.975" y="-1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="4" x="0.975" y="-1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="5" x="0.975" y="1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="8" x="-0.975" y="1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="2" x="-0.325" y="-1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="3" x="0.325" y="-1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="6" x="0.325" y="1.55" dx="0.35" dy="0.65" layer="1"/>
+<smd name="7" x="-0.325" y="1.55" dx="0.35" dy="0.65" layer="1"/>
+<polygon width="0.005" layer="1">
+<vertex x="-1.15" y="-1.225"/>
+<vertex x="-1.15" y="-1.15"/>
+<vertex x="-1.1" y="-1.1"/>
+<vertex x="-1.05" y="-1.05"/>
+<vertex x="-0.975" y="-1.05"/>
+<vertex x="-0.9" y="-1.05"/>
+<vertex x="-0.85" y="-1.1"/>
+<vertex x="-0.8" y="-1.15"/>
+<vertex x="-0.8" y="-1.225"/>
+</polygon>
 <polygon width="0.005" layer="29">
 <vertex x="-1.25" y="-1.125"/>
 <vertex x="-1.1" y="-0.975"/>
 <vertex x="-0.9" y="-0.975"/>
 <vertex x="-0.85" y="-0.975"/>
 <vertex x="-0.7" y="-1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.5" y="-1.225"/>
+<vertex x="-0.5" y="-1.15"/>
+<vertex x="-0.45" y="-1.1"/>
+<vertex x="-0.4" y="-1.05"/>
+<vertex x="-0.325" y="-1.05"/>
+<vertex x="-0.25" y="-1.05"/>
+<vertex x="-0.2" y="-1.1"/>
+<vertex x="-0.15" y="-1.15"/>
+<vertex x="-0.15" y="-1.225"/>
 </polygon>
 <polygon width="0.005" layer="29">
 <vertex x="-0.6" y="-1.125"/>
@@ -14456,12 +14478,34 @@ Source: www.kingbright.com</description>
 <vertex x="-0.2" y="-0.975"/>
 <vertex x="-0.05" y="-1.125"/>
 </polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.15" y="-1.225"/>
+<vertex x="0.15" y="-1.15"/>
+<vertex x="0.2" y="-1.1"/>
+<vertex x="0.25" y="-1.05"/>
+<vertex x="0.325" y="-1.05"/>
+<vertex x="0.4" y="-1.05"/>
+<vertex x="0.45" y="-1.1"/>
+<vertex x="0.5" y="-1.15"/>
+<vertex x="0.5" y="-1.225"/>
+</polygon>
 <polygon width="0.005" layer="29">
 <vertex x="0.05" y="-1.125"/>
 <vertex x="0.2" y="-0.975"/>
 <vertex x="0.4" y="-0.975"/>
 <vertex x="0.45" y="-0.975"/>
 <vertex x="0.6" y="-1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.8" y="-1.225"/>
+<vertex x="0.8" y="-1.15"/>
+<vertex x="0.85" y="-1.1"/>
+<vertex x="0.9" y="-1.05"/>
+<vertex x="0.975" y="-1.05"/>
+<vertex x="1.05" y="-1.05"/>
+<vertex x="1.1" y="-1.1"/>
+<vertex x="1.15" y="-1.15"/>
+<vertex x="1.15" y="-1.225"/>
 </polygon>
 <polygon width="0.005" layer="29">
 <vertex x="0.7" y="-1.125"/>
@@ -14470,12 +14514,34 @@ Source: www.kingbright.com</description>
 <vertex x="1.1" y="-0.975"/>
 <vertex x="1.25" y="-1.125"/>
 </polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.15" y="1.225"/>
+<vertex x="1.15" y="1.15"/>
+<vertex x="1.1" y="1.1"/>
+<vertex x="1.05" y="1.05"/>
+<vertex x="0.975" y="1.05"/>
+<vertex x="0.9" y="1.05"/>
+<vertex x="0.85" y="1.1"/>
+<vertex x="0.8" y="1.15"/>
+<vertex x="0.8" y="1.225"/>
+</polygon>
 <polygon width="0.005" layer="29">
 <vertex x="1.25" y="1.125"/>
 <vertex x="1.1" y="0.975"/>
 <vertex x="0.9" y="0.975"/>
 <vertex x="0.85" y="0.975"/>
 <vertex x="0.7" y="1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.5" y="1.225"/>
+<vertex x="0.5" y="1.15"/>
+<vertex x="0.45" y="1.1"/>
+<vertex x="0.4" y="1.05"/>
+<vertex x="0.325" y="1.05"/>
+<vertex x="0.25" y="1.05"/>
+<vertex x="0.2" y="1.1"/>
+<vertex x="0.15" y="1.15"/>
+<vertex x="0.15" y="1.225"/>
 </polygon>
 <polygon width="0.005" layer="29">
 <vertex x="0.6" y="1.125"/>
@@ -14484,12 +14550,34 @@ Source: www.kingbright.com</description>
 <vertex x="0.2" y="0.975"/>
 <vertex x="0.05" y="1.125"/>
 </polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.15" y="1.225"/>
+<vertex x="-0.15" y="1.15"/>
+<vertex x="-0.2" y="1.1"/>
+<vertex x="-0.25" y="1.05"/>
+<vertex x="-0.325" y="1.05"/>
+<vertex x="-0.4" y="1.05"/>
+<vertex x="-0.45" y="1.1"/>
+<vertex x="-0.5" y="1.15"/>
+<vertex x="-0.5" y="1.225"/>
+</polygon>
 <polygon width="0.005" layer="29">
 <vertex x="-0.05" y="1.125"/>
 <vertex x="-0.2" y="0.975"/>
 <vertex x="-0.4" y="0.975"/>
 <vertex x="-0.45" y="0.975"/>
 <vertex x="-0.6" y="1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.8" y="1.225"/>
+<vertex x="-0.8" y="1.15"/>
+<vertex x="-0.85" y="1.1"/>
+<vertex x="-0.9" y="1.05"/>
+<vertex x="-0.975" y="1.05"/>
+<vertex x="-1.05" y="1.05"/>
+<vertex x="-1.1" y="1.1"/>
+<vertex x="-1.15" y="1.15"/>
+<vertex x="-1.15" y="1.225"/>
 </polygon>
 <polygon width="0.005" layer="29">
 <vertex x="-0.7" y="1.125"/>
@@ -14516,13 +14604,13 @@ Source: www.kingbright.com</description>
 <rectangle x1="-1.875" y1="0.21" x2="-0.975" y2="0.44" layer="31"/>
 <rectangle x1="0.975" y1="0.21" x2="1.875" y2="0.44" layer="31"/>
 <rectangle x1="0.975" y1="-0.44" x2="1.875" y2="-0.21" layer="31"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 <text x="-2.4" y="-1.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.6" y="-1.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.55" y1="-2.1" x2="-1.3" y2="-1.85" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.475" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.475" x2="1.5" y2="1.475" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.475" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 </package>
 <package name="NFM21PS">
 <smd name="IN" x="-1.3" y="0" dx="0.8" dy="0.6" layer="1" stop="no" cream="no"/>
