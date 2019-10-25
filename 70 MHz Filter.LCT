@@ -1,10 +1,10 @@
 Elsie circuit file 712073300
 Untitled
-10/21/2019 6:39:26 PM 
+10/23/2019 6:31:12 PM 
 * Added information:
  
 * Family, order, stages, topology, Cauer:
- 11  3  6  0 
+ 11  3  5  0 
 * Width, center, Fstop normalized:
  40  0  0 
 * Apass, Astop:
@@ -18,8 +18,7 @@ Untitled
  2  0 
  1  0 
 * Element type, L, Ltolerance, C, Ctolerance
- 3  0  0  4.2E-12  0 
- 1  .0000012  0  0  0 
+ 5  .0000012  0  4.2E-12  0 
  8  3.9E-09  0  1.3E-09  0 
  5  .0000012  0  4.2E-12  0 
  8  3.9E-09  0  1.3E-09  0 
